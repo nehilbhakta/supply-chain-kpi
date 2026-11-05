@@ -1,0 +1,85 @@
+change_id,change_date,supplier_code,supplier_name,sku,description,old_unit_price_usd,new_unit_price_usd,change_pct,reason
+PC-071,2026-05-01,SUP-03,Copper State Safety Gear,SKU-CLE-02,Disinfectant spray,144.69,149.78,3.52,Contract renegotiation
+PC-070,2026-05-04,SUP-10,Mesa Fasteners & Tools,SKU-CLE-02,Disinfectant spray,147.25,153.62,4.33,Fuel surcharge
+PC-024,2026-05-11,SUP-02,Valley Industrial Supply,SKU-CLE-04,Trash bags (55 gal),187.83,194.24,3.41,Fuel surcharge
+PC-008,2026-05-13,SUP-04,Desert Office Products,SKU-OFF-01,Printer paper (ream),122.64,125.48,2.32,Volume discount ended
+PC-084,2026-05-14,SUP-10,Mesa Fasteners & Tools,SKU-SAF-04,Ear plugs (box),47.12,53.81,14.2,Raw material cost increase
+PC-066,2026-05-15,SUP-09,Southwest Janitorial Co,SKU-OFF-06,Binders,29.72,32.3,8.68,Contract renegotiation
+PC-014,2026-05-18,SUP-10,Mesa Fasteners & Tools,SKU-PAC-07,Labels (4x6),110.51,113.88,3.05,Raw material cost increase
+PC-044,2026-05-19,SUP-10,Mesa Fasteners & Tools,SKU-CLE-01,Floor cleaner (5 gal),110.99,113.17,1.96,Raw material cost increase
+PC-067,2026-05-20,SUP-02,Valley Industrial Supply,SKU-SAF-06,Hard hats,128.32,138.53,7.96,Fuel surcharge
+PC-010,2026-05-20,SUP-04,Desert Office Products,SKU-CLE-01,Floor cleaner (5 gal),99.15,106.99,7.91,Volume discount ended
+PC-065,2026-05-21,SUP-01,Sonoran Packaging Co,SKU-MRO-02,"Batteries (AA, pack)",104.16,108.14,3.82,Supplier list-price update
+PC-017,2026-05-21,SUP-08,Phoenix Pallet & Crate,SKU-CLE-04,Trash bags (55 gal),178.59,192.03,7.53,Volume discount ended
+PC-075,2026-05-23,SUP-06,Grand Canyon Chemicals,SKU-SAF-04,Ear plugs (box),47.14,49.9,5.85,Volume discount ended
+PC-069,2026-05-23,SUP-06,Grand Canyon Chemicals,SKU-OFF-05,Sticky notes,82.85,90.18,8.85,Contract renegotiation
+PC-054,2026-05-24,SUP-07,Desert Freight Logistics,SKU-CLE-02,Disinfectant spray,158.4,164.63,3.93,Volume discount ended
+PC-012,2026-05-24,SUP-05,Arizona MRO Services,SKU-OFF-02,Ink cartridges,39.65,40.42,1.94,Raw material cost increase
+PC-004,2026-05-26,SUP-06,Grand Canyon Chemicals,SKU-OFF-05,Sticky notes,83.43,86.0,3.08,Fuel surcharge
+PC-005,2026-06-01,SUP-09,Southwest Janitorial Co,SKU-OFF-01,Printer paper (ream),124.27,126.52,1.81,Fuel surcharge
+PC-047,2026-06-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-05,First-aid kits,89.52,90.59,1.2,Raw material cost increase
+PC-031,2026-06-15,SUP-02,Valley Industrial Supply,SKU-SAF-04,Ear plugs (box),48.22,49.55,2.76,Contract renegotiation
+PC-083,2026-06-16,SUP-09,Southwest Janitorial Co,SKU-MRO-06,Air filters,14.88,15.59,4.77,Contract renegotiation
+PC-061,2026-06-17,SUP-08,Phoenix Pallet & Crate,SKU-OFF-06,Binders,28.55,30.14,5.57,Fuel surcharge
+PC-034,2026-06-19,SUP-05,Arizona MRO Services,SKU-PAC-01,Cardboard boxes (24x18x12),139.37,141.12,1.26,Fuel surcharge
+PC-051,2026-06-21,SUP-01,Sonoran Packaging Co,SKU-MRO-06,Air filters,15.74,17.15,8.96,Contract renegotiation
+PC-080,2026-06-23,SUP-06,Grand Canyon Chemicals,SKU-SAF-06,Hard hats,127.07,126.98,-0.07,Contract renegotiation
+PC-078,2026-06-24,SUP-01,Sonoran Packaging Co,SKU-PAC-03,Shipping tape,20.36,20.43,0.34,Supplier list-price update
+PC-046,2026-06-26,SUP-05,Arizona MRO Services,SKU-MRO-08,Extension cords,97.23,106.41,9.44,Volume discount ended
+PC-062,2026-06-30,SUP-09,Southwest Janitorial Co,SKU-MRO-03,Duct tape,9.4,10.24,8.94,Raw material cost increase
+PC-077,2026-07-02,SUP-01,Sonoran Packaging Co,SKU-OFF-06,Binders,28.53,26.98,-5.43,Fuel surcharge
+PC-058,2026-07-05,SUP-03,Copper State Safety Gear,SKU-OFF-01,Printer paper (ream),135.03,139.47,3.29,Fuel surcharge
+PC-064,2026-07-13,SUP-09,Southwest Janitorial Co,SKU-CLE-03,Paper towels (case),138.77,141.81,2.19,Contract renegotiation
+PC-029,2026-07-13,SUP-09,Southwest Janitorial Co,SKU-OFF-08,Desk organizers,110.02,106.95,-2.79,Fuel surcharge
+PC-028,2026-07-14,SUP-01,Sonoran Packaging Co,SKU-SAF-07,Safety cones,166.26,159.53,-4.05,Raw material cost increase
+PC-016,2026-07-15,SUP-07,Desert Freight Logistics,SKU-OFF-03,Pens (box),137.88,150.57,9.2,Fuel surcharge
+PC-068,2026-07-17,SUP-05,Arizona MRO Services,SKU-CLE-03,Paper towels (case),149.25,163.41,9.49,Contract renegotiation
+PC-063,2026-07-19,SUP-06,Grand Canyon Chemicals,SKU-SAF-01,Nitrile gloves (box),57.87,62.48,7.97,Supplier list-price update
+PC-013,2026-07-19,SUP-03,Copper State Safety Gear,SKU-SAF-06,Hard hats,133.66,134.61,0.71,Raw material cost increase
+PC-023,2026-07-25,SUP-03,Copper State Safety Gear,SKU-SAF-05,First-aid kits,77.07,79.61,3.3,Supplier list-price update
+PC-021,2026-07-30,SUP-04,Desert Office Products,SKU-OFF-06,Binders,29.41,33.32,13.29,Fuel surcharge
+PC-045,2026-08-02,SUP-04,Desert Office Products,SKU-PAC-01,Cardboard boxes (24x18x12),136.55,138.75,1.61,Supplier list-price update
+PC-038,2026-08-06,SUP-03,Copper State Safety Gear,SKU-SAF-08,Spill kits,71.32,71.05,-0.38,Supplier list-price update
+PC-001,2026-08-10,SUP-08,Phoenix Pallet & Crate,SKU-CLE-08,Broom & dustpan sets,130.86,141.14,7.86,Raw material cost increase
+PC-009,2026-08-10,SUP-08,Phoenix Pallet & Crate,SKU-PAC-01,Cardboard boxes (24x18x12),132.95,134.12,0.88,Raw material cost increase
+PC-030,2026-08-14,SUP-07,Desert Freight Logistics,SKU-SAF-07,Safety cones,151.07,167.99,11.2,Supplier list-price update
+PC-037,2026-08-16,SUP-05,Arizona MRO Services,SKU-CLE-02,Disinfectant spray,152.5,148.77,-2.45,Raw material cost increase
+PC-060,2026-08-20,SUP-10,Mesa Fasteners & Tools,SKU-OFF-01,Printer paper (ream),123.24,136.26,10.56,Raw material cost increase
+PC-007,2026-08-23,SUP-10,Mesa Fasteners & Tools,SKU-SAF-06,Hard hats,132.75,136.2,2.6,Raw material cost increase
+PC-074,2026-08-27,SUP-07,Desert Freight Logistics,SKU-MRO-04,Cable ties (pack),43.17,47.31,9.59,Fuel surcharge
+PC-076,2026-08-28,SUP-01,Sonoran Packaging Co,SKU-CLE-08,Broom & dustpan sets,128.3,123.22,-3.96,Fuel surcharge
+PC-036,2026-08-29,SUP-01,Sonoran Packaging Co,SKU-PAC-01,Cardboard boxes (24x18x12),127.71,123.27,-3.48,Raw material cost increase
+PC-079,2026-08-29,SUP-01,Sonoran Packaging Co,SKU-OFF-06,Binders,31.07,32.83,5.66,Supplier list-price update
+PC-025,2026-08-31,SUP-03,Copper State Safety Gear,SKU-CLE-03,Paper towels (case),129.55,123.74,-4.48,Supplier list-price update
+PC-015,2026-09-04,SUP-05,Arizona MRO Services,SKU-OFF-01,Printer paper (ream),118.02,118.9,0.75,Fuel surcharge
+PC-057,2026-09-05,SUP-06,Grand Canyon Chemicals,SKU-CLE-04,Trash bags (55 gal),171.04,174.47,2.01,Raw material cost increase
+PC-073,2026-09-06,SUP-07,Desert Freight Logistics,SKU-CLE-08,Broom & dustpan sets,133.21,149.23,12.03,Volume discount ended
+PC-082,2026-09-09,SUP-05,Arizona MRO Services,SKU-CLE-06,Degreaser,86.65,82.41,-4.89,Fuel surcharge
+PC-011,2026-09-10,SUP-01,Sonoran Packaging Co,SKU-PAC-05,Bubble wrap,28.22,28.1,-0.43,Supplier list-price update
+PC-027,2026-09-13,SUP-06,Grand Canyon Chemicals,SKU-PAC-07,Labels (4x6),113.11,115.43,2.05,Contract renegotiation
+PC-041,2026-09-15,SUP-08,Phoenix Pallet & Crate,SKU-CLE-01,Floor cleaner (5 gal),103.56,103.28,-0.27,Contract renegotiation
+PC-056,2026-09-17,SUP-08,Phoenix Pallet & Crate,SKU-SAF-08,Spill kits,67.21,68.74,2.28,Raw material cost increase
+PC-040,2026-09-17,SUP-09,Southwest Janitorial Co,SKU-SAF-08,Spill kits,71.35,75.32,5.56,Contract renegotiation
+PC-026,2026-09-25,SUP-01,Sonoran Packaging Co,SKU-OFF-05,Sticky notes,88.92,89.59,0.75,Volume discount ended
+PC-002,2026-10-02,SUP-04,Desert Office Products,SKU-OFF-05,Sticky notes,88.0,89.62,1.84,Raw material cost increase
+PC-035,2026-10-03,SUP-10,Mesa Fasteners & Tools,SKU-CLE-06,Degreaser,87.17,94.8,8.75,Contract renegotiation
+PC-022,2026-10-03,SUP-09,Southwest Janitorial Co,SKU-MRO-01,LED bulbs (pack),117.34,114.85,-2.12,Volume discount ended
+PC-053,2026-10-04,SUP-01,Sonoran Packaging Co,SKU-SAF-02,Safety glasses,88.31,90.92,2.96,Contract renegotiation
+PC-020,2026-10-07,SUP-02,Valley Industrial Supply,SKU-SAF-05,First-aid kits,87.6,93.64,6.89,Volume discount ended
+PC-003,2026-10-08,SUP-03,Copper State Safety Gear,SKU-OFF-03,Pens (box),137.79,146.91,6.62,Contract renegotiation
+PC-033,2026-10-10,SUP-09,Southwest Janitorial Co,SKU-OFF-06,Binders,28.75,29.03,0.97,Fuel surcharge
+PC-042,2026-10-13,SUP-07,Desert Freight Logistics,SKU-OFF-06,Binders,30.83,33.37,8.24,Volume discount ended
+PC-019,2026-10-15,SUP-05,Arizona MRO Services,SKU-SAF-08,Spill kits,83.4,85.49,2.51,Raw material cost increase
+PC-006,2026-10-16,SUP-02,Valley Industrial Supply,SKU-PAC-06,Mailers (padded),66.96,68.63,2.49,Fuel surcharge
+PC-049,2026-10-16,SUP-08,Phoenix Pallet & Crate,SKU-PAC-07,Labels (4x6),119.22,122.52,2.77,Raw material cost increase
+PC-052,2026-10-17,SUP-01,Sonoran Packaging Co,SKU-MRO-02,"Batteries (AA, pack)",104.58,107.42,2.72,Volume discount ended
+PC-048,2026-10-17,SUP-01,Sonoran Packaging Co,SKU-SAF-05,First-aid kits,81.52,78.18,-4.1,Supplier list-price update
+PC-018,2026-10-17,SUP-10,Mesa Fasteners & Tools,SKU-PAC-06,Mailers (padded),70.55,66.94,-5.12,Volume discount ended
+PC-055,2026-10-20,SUP-05,Arizona MRO Services,SKU-SAF-06,Hard hats,131.84,141.51,7.33,Fuel surcharge
+PC-039,2026-10-20,SUP-09,Southwest Janitorial Co,SKU-MRO-04,Cable ties (pack),40.09,39.71,-0.95,Raw material cost increase
+PC-081,2026-10-23,SUP-06,Grand Canyon Chemicals,SKU-OFF-08,Desk organizers,108.71,110.15,1.32,Volume discount ended
+PC-050,2026-10-24,SUP-01,Sonoran Packaging Co,SKU-MRO-02,"Batteries (AA, pack)",106.15,104.36,-1.69,Volume discount ended
+PC-059,2026-10-25,SUP-05,Arizona MRO Services,SKU-SAF-01,Nitrile gloves (box),60.38,58.33,-3.4,Contract renegotiation
+PC-043,2026-10-25,SUP-07,Desert Freight Logistics,SKU-PAC-03,Shipping tape,21.34,24.24,13.59,Contract renegotiation
+PC-072,2026-10-29,SUP-03,Copper State Safety Gear,SKU-MRO-05,Lubricant spray,161.17,174.31,8.15,Raw material cost increase
+PC-032,2026-10-29,SUP-01,Sonoran Packaging Co,SKU-SAF-03,Hi-vis vests,28.18,27.48,-2.48,Contract renegotiation

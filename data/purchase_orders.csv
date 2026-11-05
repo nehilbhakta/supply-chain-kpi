@@ -1,0 +1,733 @@
+po_id,order_date,site,supplier_code,supplier_name,sku,description,category,quantity,unit_price_usd,promised_eta,actual_delivery_date,lead_time_days,promised_lead_time_days,on_time,defective_qty
+PO-1000,2026-05-01,PHX-02,SUP-07,Desert Freight Logistics,SKU-SAF-01,Nitrile gloves (box),Safety,173,59.15,2026-05-10,2026-05-09,8,9,True,4
+PO-1001,2026-05-01,TEM-01,SUP-07,Desert Freight Logistics,SKU-SAF-03,Hi-vis vests,Safety,72,26.79,2026-05-13,2026-05-13,12,12,True,3
+PO-1002,2026-05-01,PHX-01,SUP-07,Desert Freight Logistics,SKU-CLE-02,Disinfectant spray,Cleaning,276,145.18,2026-05-05,2026-05-04,3,4,True,7
+PO-1003,2026-05-01,PHX-02,SUP-04,Desert Office Products,SKU-MRO-05,Lubricant spray,MRO,282,149.88,2026-05-05,2026-05-09,8,4,False,4
+PO-1004,2026-05-01,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-06,Binders,Office,40,28.97,2026-05-06,2026-05-06,5,5,True,0
+PO-1005,2026-05-02,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-06,Hard hats,Safety,190,127.33,2026-05-11,2026-05-10,8,9,True,1
+PO-1006,2026-05-02,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-08,Spill kits,Safety,263,74.01,2026-05-07,2026-05-06,4,5,True,2
+PO-1007,2026-05-02,PHX-01,SUP-01,Sonoran Packaging Co,SKU-OFF-03,Pens (box),Office,274,140.83,2026-05-06,2026-05-06,4,4,True,3
+PO-1008,2026-05-02,PHX-02,SUP-05,Arizona MRO Services,SKU-CLE-06,Degreaser,Cleaning,240,88.31,2026-05-10,2026-05-16,14,8,False,4
+PO-1009,2026-05-02,PHX-02,SUP-05,Arizona MRO Services,SKU-CLE-04,Trash bags (55 gal),Cleaning,271,176.24,2026-05-11,2026-05-11,9,9,True,3
+PO-1010,2026-05-03,PHX-02,SUP-04,Desert Office Products,SKU-SAF-06,Hard hats,Safety,341,126.64,2026-05-07,2026-05-07,4,4,True,6
+PO-1011,2026-05-03,PHX-01,SUP-04,Desert Office Products,SKU-SAF-07,Safety cones,Safety,52,151.07,2026-05-07,2026-05-07,4,4,True,1
+PO-1012,2026-05-03,PHX-01,SUP-07,Desert Freight Logistics,SKU-CLE-05,Mop heads,Cleaning,249,150.0,2026-05-10,2026-05-09,6,7,True,10
+PO-1013,2026-05-03,PHX-02,SUP-04,Desert Office Products,SKU-MRO-02,"Batteries (AA, pack)",MRO,325,102.29,2026-05-06,2026-05-14,11,3,False,3
+PO-1014,2026-05-03,TEM-01,SUP-03,Copper State Safety Gear,SKU-MRO-08,Extension cords,MRO,80,102.57,2026-05-08,2026-05-08,5,5,True,3
+PO-1015,2026-05-04,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-02,"Batteries (AA, pack)",MRO,97,101.16,2026-05-09,2026-05-08,4,5,True,1
+PO-1016,2026-05-04,TEM-01,SUP-05,Arizona MRO Services,SKU-CLE-07,Hand soap (1 gal),Cleaning,46,32.69,2026-05-15,2026-05-15,11,11,True,0
+PO-1017,2026-05-04,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-PAC-03,Shipping tape,Packaging,357,21.45,2026-05-08,2026-05-08,4,4,True,4
+PO-1018,2026-05-05,TEM-01,SUP-04,Desert Office Products,SKU-MRO-08,Extension cords,MRO,134,106.35,2026-05-09,2026-05-08,3,4,True,0
+PO-1019,2026-05-05,PHX-01,SUP-03,Copper State Safety Gear,SKU-PAC-06,Mailers (padded),Packaging,274,67.44,2026-05-09,2026-05-08,3,4,True,2
+PO-1020,2026-05-05,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-03,Duct tape,MRO,19,9.56,2026-05-11,2026-05-10,5,6,True,0
+PO-1021,2026-05-06,PHX-01,SUP-04,Desert Office Products,SKU-MRO-07,Light switches,MRO,61,54.51,2026-05-11,2026-05-17,11,5,False,0
+PO-1022,2026-05-06,PHX-02,SUP-05,Arizona MRO Services,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,226,150.81,2026-05-14,2026-05-13,7,8,True,2
+PO-1023,2026-05-06,PHX-02,SUP-02,Valley Industrial Supply,SKU-PAC-07,Labels (4x6),Packaging,80,118.43,2026-05-13,2026-05-12,6,7,True,1
+PO-1024,2026-05-07,TEM-01,SUP-02,Valley Industrial Supply,SKU-CLE-04,Trash bags (55 gal),Cleaning,107,172.06,2026-05-11,2026-05-10,3,4,True,1
+PO-1025,2026-05-07,TEM-01,SUP-02,Valley Industrial Supply,SKU-CLE-07,Hand soap (1 gal),Cleaning,176,29.95,2026-05-14,2026-05-14,7,7,True,1
+PO-1026,2026-05-07,TEM-01,SUP-05,Arizona MRO Services,SKU-MRO-08,Extension cords,MRO,337,103.09,2026-05-21,2026-05-20,13,14,True,4
+PO-1027,2026-05-07,PHX-01,SUP-02,Valley Industrial Supply,SKU-MRO-01,LED bulbs (pack),MRO,131,115.25,2026-05-14,2026-05-13,6,7,True,0
+PO-1028,2026-05-08,PHX-02,SUP-05,Arizona MRO Services,SKU-PAC-05,Bubble wrap,Packaging,18,27.36,2026-05-15,2026-05-14,6,7,True,0
+PO-1029,2026-05-08,PHX-02,SUP-01,Sonoran Packaging Co,SKU-MRO-01,LED bulbs (pack),MRO,333,116.81,2026-05-13,2026-05-13,5,5,True,3
+PO-1030,2026-05-08,TEM-01,SUP-05,Arizona MRO Services,SKU-PAC-08,Strapping bands,Packaging,102,79.3,2026-05-20,2026-05-19,11,12,True,0
+PO-1031,2026-05-09,PHX-01,SUP-01,Sonoran Packaging Co,SKU-MRO-02,"Batteries (AA, pack)",MRO,30,99.01,2026-05-14,2026-05-13,4,5,True,1
+PO-1032,2026-05-09,TEM-01,SUP-09,Southwest Janitorial Co,SKU-CLE-05,Mop heads,Cleaning,235,139.93,2026-05-15,2026-05-14,5,6,True,1
+PO-1033,2026-05-09,TEM-01,SUP-04,Desert Office Products,SKU-SAF-05,First-aid kits,Safety,344,80.04,2026-05-10,2026-05-09,0,1,True,2
+PO-1034,2026-05-09,PHX-02,SUP-07,Desert Freight Logistics,SKU-SAF-02,Safety glasses,Safety,74,85.79,2026-05-29,2026-05-29,20,20,True,2
+PO-1035,2026-05-10,TEM-01,SUP-04,Desert Office Products,SKU-PAC-08,Strapping bands,Packaging,101,84.94,2026-05-15,2026-05-15,5,5,True,1
+PO-1036,2026-05-10,TEM-01,SUP-05,Arizona MRO Services,SKU-SAF-06,Hard hats,Safety,340,124.59,2026-05-19,2026-05-18,8,9,True,5
+PO-1037,2026-05-10,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-PAC-08,Strapping bands,Packaging,23,84.92,2026-05-21,2026-05-21,11,11,True,0
+PO-1038,2026-05-10,PHX-02,SUP-07,Desert Freight Logistics,SKU-PAC-04,Pallets (48x40),Packaging,293,135.81,2026-05-25,2026-06-03,24,15,False,18
+PO-1039,2026-05-11,PHX-02,SUP-05,Arizona MRO Services,SKU-SAF-08,Spill kits,Safety,315,70.75,2026-05-18,2026-05-20,9,7,False,4
+PO-1040,2026-05-11,PHX-02,SUP-03,Copper State Safety Gear,SKU-SAF-05,First-aid kits,Safety,75,81.68,2026-05-18,2026-05-18,7,7,True,0
+PO-1041,2026-05-11,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-07,Envelopes,Office,321,115.87,2026-05-18,2026-05-18,7,7,True,0
+PO-1042,2026-05-12,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-PAC-04,Pallets (48x40),Packaging,266,138.92,2026-05-18,2026-05-18,6,6,True,1
+PO-1043,2026-05-12,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-01,LED bulbs (pack),MRO,257,117.04,2026-05-20,2026-05-20,8,8,True,7
+PO-1044,2026-05-12,PHX-02,SUP-01,Sonoran Packaging Co,SKU-MRO-06,Air filters,MRO,180,14.35,2026-05-17,2026-05-17,5,5,True,2
+PO-1045,2026-05-12,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-OFF-01,Printer paper (ream),Office,64,126.18,2026-05-24,2026-05-24,12,12,True,2
+PO-1046,2026-05-12,TEM-01,SUP-03,Copper State Safety Gear,SKU-MRO-03,Duct tape,MRO,258,9.79,2026-05-16,2026-05-16,4,4,True,0
+PO-1047,2026-05-13,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-MRO-02,"Batteries (AA, pack)",MRO,125,103.27,2026-05-16,2026-05-16,3,3,True,2
+PO-1048,2026-05-13,PHX-01,SUP-04,Desert Office Products,SKU-SAF-06,Hard hats,Safety,162,129.93,2026-05-17,2026-05-16,3,4,True,3
+PO-1049,2026-05-13,PHX-01,SUP-07,Desert Freight Logistics,SKU-MRO-08,Extension cords,MRO,269,99.88,2026-05-26,2026-05-25,12,13,True,5
+PO-1050,2026-05-13,PHX-01,SUP-09,Southwest Janitorial Co,SKU-SAF-03,Hi-vis vests,Safety,343,26.66,2026-05-20,2026-05-29,16,7,False,4
+PO-1051,2026-05-13,PHX-01,SUP-01,Sonoran Packaging Co,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,30,137.37,2026-05-16,2026-05-15,2,3,True,0
+PO-1052,2026-05-14,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-01,LED bulbs (pack),MRO,371,113.04,2026-05-27,2026-06-06,23,13,False,9
+PO-1053,2026-05-14,PHX-01,SUP-09,Southwest Janitorial Co,SKU-PAC-05,Bubble wrap,Packaging,281,26.08,2026-05-22,2026-05-21,7,8,True,5
+PO-1054,2026-05-14,PHX-01,SUP-09,Southwest Janitorial Co,SKU-OFF-06,Binders,Office,85,28.94,2026-05-19,2026-05-18,4,5,True,1
+PO-1055,2026-05-15,PHX-01,SUP-01,Sonoran Packaging Co,SKU-OFF-01,Printer paper (ream),Office,26,122.13,2026-05-20,2026-05-20,5,5,True,0
+PO-1056,2026-05-15,TEM-01,SUP-02,Valley Industrial Supply,SKU-CLE-08,Broom & dustpan sets,Cleaning,240,136.55,2026-05-23,2026-05-23,8,8,True,2
+PO-1057,2026-05-15,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-06,Air filters,MRO,127,14.42,2026-05-19,2026-05-19,4,4,True,2
+PO-1058,2026-05-15,PHX-02,SUP-07,Desert Freight Logistics,SKU-SAF-03,Hi-vis vests,Safety,279,27.0,2026-06-05,2026-06-05,21,21,True,8
+PO-1059,2026-05-15,PHX-02,SUP-01,Sonoran Packaging Co,SKU-CLE-05,Mop heads,Cleaning,176,134.28,2026-05-20,2026-05-19,4,5,True,0
+PO-1060,2026-05-16,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-SAF-08,Spill kits,Safety,133,70.12,2026-05-20,2026-05-20,4,4,True,0
+PO-1061,2026-05-16,PHX-02,SUP-05,Arizona MRO Services,SKU-CLE-07,Hand soap (1 gal),Cleaning,239,30.83,2026-05-23,2026-05-22,6,7,True,2
+PO-1062,2026-05-16,PHX-01,SUP-04,Desert Office Products,SKU-SAF-06,Hard hats,Safety,178,127.6,2026-05-20,2026-05-19,3,4,True,3
+PO-1063,2026-05-16,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-PAC-06,Mailers (padded),Packaging,341,67.49,2026-05-25,2026-05-24,8,9,True,2
+PO-1064,2026-05-17,PHX-01,SUP-05,Arizona MRO Services,SKU-PAC-02,Stretch wrap rolls,Packaging,31,157.22,2026-05-27,2026-05-27,10,10,True,0
+PO-1065,2026-05-17,TEM-01,SUP-05,Arizona MRO Services,SKU-PAC-07,Labels (4x6),Packaging,132,122.12,2026-05-21,2026-05-21,4,4,True,3
+PO-1066,2026-05-17,PHX-01,SUP-09,Southwest Janitorial Co,SKU-OFF-05,Sticky notes,Office,103,90.93,2026-05-20,2026-05-19,2,3,True,3
+PO-1067,2026-05-17,PHX-02,SUP-05,Arizona MRO Services,SKU-OFF-07,Envelopes,Office,131,121.33,2026-05-26,2026-05-25,8,9,True,2
+PO-1068,2026-05-18,TEM-01,SUP-07,Desert Freight Logistics,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,214,98.65,2026-06-02,2026-06-02,15,15,True,16
+PO-1069,2026-05-18,TEM-01,SUP-09,Southwest Janitorial Co,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,322,106.05,2026-05-24,2026-05-23,5,6,True,3
+PO-1070,2026-05-18,PHX-01,SUP-09,Southwest Janitorial Co,SKU-OFF-07,Envelopes,Office,179,123.29,2026-05-27,2026-05-27,9,9,True,4
+PO-1071,2026-05-18,PHX-01,SUP-02,Valley Industrial Supply,SKU-OFF-02,Ink cartridges,Office,85,38.26,2026-05-24,2026-05-24,6,6,True,0
+PO-1072,2026-05-19,TEM-01,SUP-03,Copper State Safety Gear,SKU-MRO-02,"Batteries (AA, pack)",MRO,343,103.04,2026-05-25,2026-05-24,5,6,True,3
+PO-1073,2026-05-19,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-07,Hand soap (1 gal),Cleaning,220,33.05,2026-05-25,2026-05-25,6,6,True,2
+PO-1074,2026-05-19,PHX-02,SUP-05,Arizona MRO Services,SKU-CLE-07,Hand soap (1 gal),Cleaning,178,30.32,2026-05-25,2026-05-24,5,6,True,1
+PO-1075,2026-05-20,TEM-01,SUP-04,Desert Office Products,SKU-MRO-08,Extension cords,MRO,255,101.55,2026-05-23,2026-05-22,2,3,True,1
+PO-1076,2026-05-20,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-06,Air filters,MRO,184,13.88,2026-06-02,2026-06-01,12,13,True,6
+PO-1077,2026-05-20,PHX-02,SUP-01,Sonoran Packaging Co,SKU-SAF-06,Hard hats,Safety,288,128.64,2026-05-26,2026-05-25,5,6,True,2
+PO-1078,2026-05-21,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-04,Trash bags (55 gal),Cleaning,253,168.67,2026-05-25,2026-05-24,3,4,True,2
+PO-1079,2026-05-21,TEM-01,SUP-07,Desert Freight Logistics,SKU-SAF-07,Safety cones,Safety,265,143.02,2026-06-09,2026-06-12,22,19,False,13
+PO-1080,2026-05-21,PHX-01,SUP-03,Copper State Safety Gear,SKU-CLE-04,Trash bags (55 gal),Cleaning,208,165.53,2026-05-26,2026-06-04,14,5,False,1
+PO-1081,2026-05-21,PHX-01,SUP-03,Copper State Safety Gear,SKU-SAF-01,Nitrile gloves (box),Safety,319,62.75,2026-05-29,2026-05-28,7,8,True,4
+PO-1082,2026-05-22,PHX-01,SUP-03,Copper State Safety Gear,SKU-PAC-02,Stretch wrap rolls,Packaging,155,157.19,2026-05-29,2026-05-28,6,7,True,1
+PO-1083,2026-05-22,TEM-01,SUP-07,Desert Freight Logistics,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,298,146.32,2026-06-06,2026-06-05,14,15,True,10
+PO-1084,2026-05-22,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-03,Duct tape,MRO,11,9.3,2026-05-28,2026-05-27,5,6,True,0
+PO-1085,2026-05-22,TEM-01,SUP-01,Sonoran Packaging Co,SKU-OFF-01,Printer paper (ream),Office,109,122.61,2026-05-25,2026-05-25,3,3,True,1
+PO-1086,2026-05-22,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-SAF-08,Spill kits,Safety,164,73.34,2026-05-27,2026-05-26,4,5,True,0
+PO-1087,2026-05-23,PHX-02,SUP-05,Arizona MRO Services,SKU-OFF-05,Sticky notes,Office,324,86.33,2026-06-04,2026-06-03,11,12,True,2
+PO-1088,2026-05-23,TEM-01,SUP-05,Arizona MRO Services,SKU-PAC-08,Strapping bands,Packaging,343,86.59,2026-05-28,2026-05-27,4,5,True,7
+PO-1089,2026-05-23,PHX-01,SUP-04,Desert Office Products,SKU-PAC-06,Mailers (padded),Packaging,152,69.63,2026-05-26,2026-05-25,2,3,True,1
+PO-1090,2026-05-24,PHX-02,SUP-09,Southwest Janitorial Co,SKU-CLE-06,Degreaser,Cleaning,173,85.93,2026-05-27,2026-05-26,2,3,True,1
+PO-1091,2026-05-24,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-08,Broom & dustpan sets,Cleaning,228,138.26,2026-06-03,2026-06-03,10,10,True,3
+PO-1092,2026-05-24,PHX-01,SUP-07,Desert Freight Logistics,SKU-OFF-03,Pens (box),Office,126,144.15,2026-05-30,2026-05-30,6,6,True,8
+PO-1093,2026-05-25,PHX-01,SUP-01,Sonoran Packaging Co,SKU-SAF-07,Safety cones,Safety,318,148.13,2026-05-30,2026-05-29,4,5,True,5
+PO-1094,2026-05-25,TEM-01,SUP-05,Arizona MRO Services,SKU-CLE-03,Paper towels (case),Cleaning,271,143.6,2026-06-01,2026-05-31,6,7,True,3
+PO-1095,2026-05-25,PHX-01,SUP-05,Arizona MRO Services,SKU-OFF-03,Pens (box),Office,382,138.97,2026-06-03,2026-06-03,9,9,True,9
+PO-1096,2026-05-26,PHX-01,SUP-03,Copper State Safety Gear,SKU-PAC-02,Stretch wrap rolls,Packaging,105,153.97,2026-05-31,2026-05-31,5,5,True,0
+PO-1097,2026-05-26,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-MRO-03,Duct tape,MRO,257,9.58,2026-06-06,2026-06-06,11,11,True,1
+PO-1098,2026-05-26,PHX-01,SUP-05,Arizona MRO Services,SKU-CLE-08,Broom & dustpan sets,Cleaning,172,134.23,2026-06-03,2026-06-03,8,8,True,0
+PO-1099,2026-05-27,PHX-01,SUP-03,Copper State Safety Gear,SKU-SAF-04,Ear plugs (box),Safety,139,45.43,2026-06-03,2026-06-03,7,7,True,0
+PO-1100,2026-05-27,PHX-01,SUP-09,Southwest Janitorial Co,SKU-SAF-08,Spill kits,Safety,366,73.86,2026-05-31,2026-05-31,4,4,True,3
+PO-1101,2026-05-27,PHX-02,SUP-05,Arizona MRO Services,SKU-PAC-02,Stretch wrap rolls,Packaging,189,156.4,2026-06-05,2026-06-04,8,9,True,1
+PO-1102,2026-05-27,PHX-01,SUP-01,Sonoran Packaging Co,SKU-PAC-04,Pallets (48x40),Packaging,373,142.11,2026-06-02,2026-06-02,6,6,True,2
+PO-1103,2026-05-27,PHX-01,SUP-01,Sonoran Packaging Co,SKU-SAF-07,Safety cones,Safety,240,152.81,2026-05-30,2026-05-30,3,3,True,1
+PO-1104,2026-05-28,TEM-01,SUP-09,Southwest Janitorial Co,SKU-OFF-07,Envelopes,Office,343,128.15,2026-06-03,2026-06-10,13,6,False,4
+PO-1105,2026-05-28,PHX-02,SUP-05,Arizona MRO Services,SKU-PAC-04,Pallets (48x40),Packaging,296,143.13,2026-06-07,2026-06-06,9,10,True,4
+PO-1106,2026-05-28,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-SAF-01,Nitrile gloves (box),Safety,133,60.33,2026-06-07,2026-06-06,9,10,True,0
+PO-1107,2026-05-28,TEM-01,SUP-04,Desert Office Products,SKU-OFF-03,Pens (box),Office,339,148.27,2026-06-03,2026-06-02,5,6,True,6
+PO-1108,2026-05-28,TEM-01,SUP-03,Copper State Safety Gear,SKU-PAC-06,Mailers (padded),Packaging,66,69.15,2026-06-02,2026-06-01,4,5,True,2
+PO-1109,2026-05-29,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,397,139.37,2026-06-03,2026-06-02,4,5,True,5
+PO-1110,2026-05-29,PHX-02,SUP-09,Southwest Janitorial Co,SKU-PAC-07,Labels (4x6),Packaging,81,118.7,2026-06-03,2026-06-03,5,5,True,0
+PO-1111,2026-05-29,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-MRO-02,"Batteries (AA, pack)",MRO,17,99.82,2026-06-03,2026-06-02,4,5,True,0
+PO-1112,2026-05-29,PHX-02,SUP-09,Southwest Janitorial Co,SKU-PAC-08,Strapping bands,Packaging,214,81.71,2026-06-05,2026-06-05,7,7,True,2
+PO-1113,2026-05-30,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-PAC-06,Mailers (padded),Packaging,370,68.21,2026-06-03,2026-06-02,3,4,True,2
+PO-1114,2026-05-30,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-PAC-04,Pallets (48x40),Packaging,356,135.97,2026-06-03,2026-06-03,4,4,True,6
+PO-1115,2026-05-30,PHX-01,SUP-02,Valley Industrial Supply,SKU-OFF-04,Folders,Office,368,120.95,2026-06-06,2026-06-05,6,7,True,3
+PO-1116,2026-05-30,PHX-02,SUP-07,Desert Freight Logistics,SKU-MRO-04,Cable ties (pack),MRO,157,43.73,2026-06-10,2026-06-18,19,11,False,8
+PO-1117,2026-05-30,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-02,Safety glasses,Safety,313,90.35,2026-06-03,2026-06-02,3,4,True,0
+PO-1118,2026-05-31,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-03,Hi-vis vests,Safety,92,26.98,2026-06-05,2026-06-04,4,5,True,1
+PO-1119,2026-05-31,PHX-02,SUP-07,Desert Freight Logistics,SKU-CLE-05,Mop heads,Cleaning,247,138.93,2026-06-16,2026-06-16,16,16,True,15
+PO-1120,2026-05-31,PHX-01,SUP-07,Desert Freight Logistics,SKU-PAC-03,Shipping tape,Packaging,141,20.84,2026-06-13,2026-06-13,13,13,True,3
+PO-1121,2026-05-31,PHX-01,SUP-01,Sonoran Packaging Co,SKU-CLE-06,Degreaser,Cleaning,382,84.35,2026-06-04,2026-06-04,4,4,True,3
+PO-1122,2026-06-01,TEM-01,SUP-05,Arizona MRO Services,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,82,98.54,2026-06-08,2026-06-08,7,7,True,0
+PO-1123,2026-06-01,TEM-01,SUP-03,Copper State Safety Gear,SKU-PAC-04,Pallets (48x40),Packaging,105,137.05,2026-06-05,2026-06-04,3,4,True,0
+PO-1124,2026-06-01,PHX-01,SUP-04,Desert Office Products,SKU-OFF-07,Envelopes,Office,351,117.65,2026-06-05,2026-06-13,12,4,False,7
+PO-1125,2026-06-01,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-SAF-01,Nitrile gloves (box),Safety,377,59.82,2026-06-05,2026-06-05,4,4,True,4
+PO-1126,2026-06-01,PHX-02,SUP-05,Arizona MRO Services,SKU-SAF-06,Hard hats,Safety,74,123.96,2026-06-09,2026-06-09,8,8,True,1
+PO-1127,2026-06-02,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-04,Trash bags (55 gal),Cleaning,154,171.58,2026-06-07,2026-06-07,5,5,True,0
+PO-1128,2026-06-02,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-01,Nitrile gloves (box),Safety,100,59.97,2026-06-06,2026-06-05,3,4,True,1
+PO-1129,2026-06-02,PHX-01,SUP-07,Desert Freight Logistics,SKU-SAF-01,Nitrile gloves (box),Safety,185,59.58,2026-06-11,2026-06-14,12,9,False,11
+PO-1130,2026-06-02,PHX-02,SUP-09,Southwest Janitorial Co,SKU-SAF-06,Hard hats,Safety,290,127.71,2026-06-05,2026-06-05,3,3,True,6
+PO-1131,2026-06-02,PHX-01,SUP-01,Sonoran Packaging Co,SKU-OFF-08,Desk organizers,Office,211,103.72,2026-06-09,2026-06-09,7,7,True,1
+PO-1132,2026-06-03,PHX-01,SUP-04,Desert Office Products,SKU-PAC-06,Mailers (padded),Packaging,381,66.87,2026-06-08,2026-06-11,8,5,False,4
+PO-1133,2026-06-03,PHX-01,SUP-02,Valley Industrial Supply,SKU-PAC-07,Labels (4x6),Packaging,350,119.05,2026-06-11,2026-06-11,8,8,True,2
+PO-1134,2026-06-03,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-03,Hi-vis vests,Safety,166,23.93,2026-06-08,2026-06-07,4,5,True,1
+PO-1135,2026-06-03,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-CLE-07,Hand soap (1 gal),Cleaning,337,32.43,2026-06-07,2026-06-07,4,4,True,0
+PO-1136,2026-06-04,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-OFF-03,Pens (box),Office,31,138.21,2026-06-09,2026-06-08,4,5,True,1
+PO-1137,2026-06-04,TEM-01,SUP-03,Copper State Safety Gear,SKU-OFF-02,Ink cartridges,Office,10,39.22,2026-06-08,2026-06-07,3,4,True,0
+PO-1138,2026-06-04,PHX-01,SUP-01,Sonoran Packaging Co,SKU-SAF-02,Safety glasses,Safety,317,83.93,2026-06-09,2026-06-08,4,5,True,1
+PO-1139,2026-06-05,PHX-02,SUP-05,Arizona MRO Services,SKU-CLE-05,Mop heads,Cleaning,266,141.97,2026-06-14,2026-06-21,16,9,False,2
+PO-1140,2026-06-05,TEM-01,SUP-01,Sonoran Packaging Co,SKU-OFF-04,Folders,Office,339,130.43,2026-06-11,2026-06-11,6,6,True,2
+PO-1141,2026-06-05,PHX-02,SUP-09,Southwest Janitorial Co,SKU-SAF-03,Hi-vis vests,Safety,302,27.93,2026-06-13,2026-06-21,16,8,False,3
+PO-1142,2026-06-05,TEM-01,SUP-04,Desert Office Products,SKU-SAF-01,Nitrile gloves (box),Safety,229,61.24,2026-06-10,2026-06-09,4,5,True,2
+PO-1143,2026-06-05,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-SAF-01,Nitrile gloves (box),Safety,281,62.58,2026-06-10,2026-06-10,5,5,True,0
+PO-1144,2026-06-06,PHX-02,SUP-07,Desert Freight Logistics,SKU-OFF-06,Binders,Office,128,27.18,2026-06-12,2026-06-12,6,6,True,7
+PO-1145,2026-06-06,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-02,Disinfectant spray,Cleaning,270,151.19,2026-06-11,2026-06-10,4,5,True,1
+PO-1146,2026-06-06,TEM-01,SUP-02,Valley Industrial Supply,SKU-MRO-05,Lubricant spray,MRO,299,144.11,2026-06-14,2026-06-14,8,8,True,5
+PO-1147,2026-06-07,PHX-02,SUP-03,Copper State Safety Gear,SKU-CLE-05,Mop heads,Cleaning,35,143.05,2026-06-14,2026-06-14,7,7,True,0
+PO-1148,2026-06-07,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-01,Nitrile gloves (box),Safety,351,59.59,2026-06-18,2026-06-18,11,11,True,5
+PO-1149,2026-06-07,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-MRO-03,Duct tape,MRO,284,9.27,2026-06-11,2026-06-11,4,4,True,1
+PO-1150,2026-06-07,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-MRO-05,Lubricant spray,MRO,338,165.51,2026-06-11,2026-06-10,3,4,True,3
+PO-1151,2026-06-07,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-OFF-02,Ink cartridges,Office,282,39.7,2026-06-12,2026-06-12,5,5,True,1
+PO-1152,2026-06-08,PHX-01,SUP-05,Arizona MRO Services,SKU-CLE-04,Trash bags (55 gal),Cleaning,266,169.22,2026-06-18,2026-06-17,9,10,True,0
+PO-1153,2026-06-08,PHX-01,SUP-05,Arizona MRO Services,SKU-OFF-08,Desk organizers,Office,337,98.54,2026-06-16,2026-06-15,7,8,True,3
+PO-1154,2026-06-08,PHX-01,SUP-02,Valley Industrial Supply,SKU-CLE-04,Trash bags (55 gal),Cleaning,378,182.37,2026-06-17,2026-06-17,9,9,True,6
+PO-1155,2026-06-08,TEM-01,SUP-07,Desert Freight Logistics,SKU-PAC-03,Shipping tape,Packaging,63,19.72,2026-06-22,2026-06-22,14,14,True,3
+PO-1156,2026-06-09,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-MRO-02,"Batteries (AA, pack)",MRO,78,102.97,2026-06-14,2026-06-14,5,5,True,1
+PO-1157,2026-06-09,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,19,144.32,2026-06-18,2026-06-17,8,9,True,0
+PO-1158,2026-06-09,PHX-01,SUP-04,Desert Office Products,SKU-CLE-05,Mop heads,Cleaning,189,143.96,2026-06-14,2026-06-14,5,5,True,1
+PO-1159,2026-06-09,TEM-01,SUP-07,Desert Freight Logistics,SKU-OFF-04,Folders,Office,363,127.07,2026-06-27,2026-06-26,17,18,True,17
+PO-1160,2026-06-09,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-04,Ear plugs (box),Safety,358,44.4,2026-06-16,2026-06-15,6,7,True,1
+PO-1161,2026-06-10,PHX-02,SUP-03,Copper State Safety Gear,SKU-PAC-03,Shipping tape,Packaging,30,20.41,2026-06-16,2026-06-15,5,6,True,0
+PO-1162,2026-06-10,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-06,Binders,Office,143,28.37,2026-06-15,2026-06-15,5,5,True,1
+PO-1163,2026-06-10,PHX-01,SUP-05,Arizona MRO Services,SKU-MRO-01,LED bulbs (pack),MRO,46,115.4,2026-06-18,2026-06-17,7,8,True,1
+PO-1164,2026-06-11,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-07,Envelopes,Office,191,124.16,2026-06-15,2026-06-14,3,4,True,2
+PO-1165,2026-06-11,PHX-01,SUP-03,Copper State Safety Gear,SKU-OFF-07,Envelopes,Office,141,125.15,2026-06-18,2026-06-18,7,7,True,0
+PO-1166,2026-06-11,TEM-01,SUP-09,Southwest Janitorial Co,SKU-PAC-06,Mailers (padded),Packaging,264,64.17,2026-06-18,2026-06-18,7,7,True,7
+PO-1167,2026-06-12,PHX-02,SUP-05,Arizona MRO Services,SKU-PAC-08,Strapping bands,Packaging,96,79.92,2026-06-19,2026-06-19,7,7,True,1
+PO-1168,2026-06-12,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-08,Broom & dustpan sets,Cleaning,154,127.35,2026-06-17,2026-06-16,4,5,True,1
+PO-1169,2026-06-12,PHX-01,SUP-07,Desert Freight Logistics,SKU-CLE-03,Paper towels (case),Cleaning,173,138.93,2026-06-24,2026-06-29,17,12,False,6
+PO-1170,2026-06-12,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-PAC-06,Mailers (padded),Packaging,73,69.24,2026-06-23,2026-06-23,11,11,True,0
+PO-1171,2026-06-12,PHX-02,SUP-01,Sonoran Packaging Co,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,358,104.68,2026-06-17,2026-06-16,4,5,True,1
+PO-1172,2026-06-13,PHX-02,SUP-09,Southwest Janitorial Co,SKU-MRO-06,Air filters,MRO,33,14.9,2026-06-22,2026-06-22,9,9,True,0
+PO-1173,2026-06-13,PHX-01,SUP-02,Valley Industrial Supply,SKU-MRO-04,Cable ties (pack),MRO,171,40.95,2026-06-19,2026-06-19,6,6,True,0
+PO-1174,2026-06-13,PHX-02,SUP-02,Valley Industrial Supply,SKU-CLE-05,Mop heads,Cleaning,150,138.93,2026-06-19,2026-06-19,6,6,True,1
+PO-1175,2026-06-13,TEM-01,SUP-03,Copper State Safety Gear,SKU-MRO-01,LED bulbs (pack),MRO,22,107.9,2026-06-16,2026-06-15,2,3,True,0
+PO-1176,2026-06-13,PHX-01,SUP-05,Arizona MRO Services,SKU-PAC-05,Bubble wrap,Packaging,342,25.83,2026-06-21,2026-06-20,7,8,True,10
+PO-1177,2026-06-14,PHX-01,SUP-03,Copper State Safety Gear,SKU-SAF-01,Nitrile gloves (box),Safety,136,59.28,2026-06-19,2026-06-18,4,5,True,0
+PO-1178,2026-06-14,PHX-02,SUP-09,Southwest Janitorial Co,SKU-CLE-06,Degreaser,Cleaning,217,84.09,2026-06-16,2026-06-16,2,2,True,2
+PO-1179,2026-06-14,PHX-02,SUP-05,Arizona MRO Services,SKU-PAC-06,Mailers (padded),Packaging,135,72.76,2026-06-23,2026-06-22,8,9,True,2
+PO-1180,2026-06-14,PHX-02,SUP-09,Southwest Janitorial Co,SKU-OFF-03,Pens (box),Office,181,141.77,2026-06-20,2026-06-26,12,6,False,4
+PO-1181,2026-06-15,PHX-02,SUP-04,Desert Office Products,SKU-CLE-03,Paper towels (case),Cleaning,388,134.83,2026-06-18,2026-06-17,2,3,True,4
+PO-1182,2026-06-15,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-CLE-06,Degreaser,Cleaning,157,88.2,2026-06-21,2026-06-20,5,6,True,1
+PO-1183,2026-06-15,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-OFF-08,Desk organizers,Office,305,105.5,2026-06-20,2026-06-19,4,5,True,3
+PO-1184,2026-06-15,TEM-01,SUP-02,Valley Industrial Supply,SKU-OFF-03,Pens (box),Office,30,142.6,2026-06-24,2026-06-24,9,9,True,0
+PO-1185,2026-06-15,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-01,Printer paper (ream),Office,374,116.04,2026-06-19,2026-06-18,3,4,True,4
+PO-1186,2026-06-16,PHX-02,SUP-05,Arizona MRO Services,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,186,107.72,2026-06-25,2026-06-25,9,9,True,4
+PO-1187,2026-06-16,PHX-01,SUP-09,Southwest Janitorial Co,SKU-SAF-07,Safety cones,Safety,115,154.3,2026-06-21,2026-06-21,5,5,True,1
+PO-1188,2026-06-16,TEM-01,SUP-05,Arizona MRO Services,SKU-PAC-04,Pallets (48x40),Packaging,318,129.33,2026-06-22,2026-06-21,5,6,True,6
+PO-1189,2026-06-17,PHX-02,SUP-09,Southwest Janitorial Co,SKU-SAF-05,First-aid kits,Safety,105,74.19,2026-06-19,2026-06-18,1,2,True,1
+PO-1190,2026-06-17,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-01,Nitrile gloves (box),Safety,56,64.73,2026-06-25,2026-06-25,8,8,True,0
+PO-1191,2026-06-17,PHX-01,SUP-03,Copper State Safety Gear,SKU-PAC-03,Shipping tape,Packaging,376,20.23,2026-06-21,2026-06-20,3,4,True,1
+PO-1192,2026-06-17,TEM-01,SUP-02,Valley Industrial Supply,SKU-CLE-08,Broom & dustpan sets,Cleaning,251,134.58,2026-06-24,2026-06-23,6,7,True,1
+PO-1193,2026-06-18,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-PAC-08,Strapping bands,Packaging,144,86.62,2026-06-25,2026-06-28,10,7,False,2
+PO-1194,2026-06-18,PHX-01,SUP-05,Arizona MRO Services,SKU-CLE-02,Disinfectant spray,Cleaning,237,151.58,2026-07-01,2026-06-30,12,13,True,2
+PO-1195,2026-06-18,PHX-01,SUP-04,Desert Office Products,SKU-PAC-02,Stretch wrap rolls,Packaging,218,159.37,2026-06-21,2026-06-29,11,3,False,3
+PO-1196,2026-06-18,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-05,First-aid kits,Safety,161,82.69,2026-06-24,2026-06-24,6,6,True,0
+PO-1197,2026-06-19,PHX-01,SUP-09,Southwest Janitorial Co,SKU-MRO-06,Air filters,MRO,291,14.1,2026-06-24,2026-06-23,4,5,True,3
+PO-1198,2026-06-19,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-PAC-03,Shipping tape,Packaging,387,21.4,2026-06-24,2026-06-23,4,5,True,6
+PO-1199,2026-06-19,TEM-01,SUP-03,Copper State Safety Gear,SKU-OFF-03,Pens (box),Office,59,135.64,2026-06-23,2026-07-02,13,4,False,1
+PO-1200,2026-06-20,TEM-01,SUP-02,Valley Industrial Supply,SKU-MRO-05,Lubricant spray,MRO,127,159.87,2026-06-27,2026-06-26,6,7,True,3
+PO-1201,2026-06-20,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-SAF-04,Ear plugs (box),Safety,187,42.51,2026-06-25,2026-06-25,5,5,True,0
+PO-1202,2026-06-20,TEM-01,SUP-04,Desert Office Products,SKU-SAF-07,Safety cones,Safety,292,152.57,2026-06-23,2026-06-23,3,3,True,0
+PO-1203,2026-06-20,PHX-01,SUP-09,Southwest Janitorial Co,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,390,105.21,2026-06-27,2026-06-26,6,7,True,9
+PO-1204,2026-06-21,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-PAC-02,Stretch wrap rolls,Packaging,69,158.14,2026-06-29,2026-06-29,8,8,True,2
+PO-1205,2026-06-21,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-OFF-03,Pens (box),Office,320,147.89,2026-06-29,2026-06-29,8,8,True,5
+PO-1206,2026-06-21,PHX-01,SUP-02,Valley Industrial Supply,SKU-CLE-06,Degreaser,Cleaning,45,85.58,2026-07-01,2026-06-30,9,10,True,0
+PO-1207,2026-06-21,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-PAC-05,Bubble wrap,Packaging,174,27.21,2026-06-26,2026-06-26,5,5,True,2
+PO-1208,2026-06-21,TEM-01,SUP-09,Southwest Janitorial Co,SKU-CLE-02,Disinfectant spray,Cleaning,291,142.32,2026-06-28,2026-07-07,16,7,False,1
+PO-1209,2026-06-22,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-05,First-aid kits,Safety,208,79.33,2026-06-30,2026-07-02,10,8,False,2
+PO-1210,2026-06-22,PHX-01,SUP-05,Arizona MRO Services,SKU-MRO-07,Light switches,MRO,296,59.55,2026-07-03,2026-07-02,10,11,True,1
+PO-1211,2026-06-22,PHX-02,SUP-01,Sonoran Packaging Co,SKU-SAF-03,Hi-vis vests,Safety,359,26.55,2026-06-26,2026-06-25,3,4,True,2
+PO-1212,2026-06-23,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-SAF-02,Safety glasses,Safety,258,89.14,2026-06-29,2026-06-29,6,6,True,2
+PO-1213,2026-06-23,TEM-01,SUP-04,Desert Office Products,SKU-MRO-06,Air filters,MRO,284,13.71,2026-06-27,2026-06-27,4,4,True,3
+PO-1214,2026-06-23,PHX-02,SUP-05,Arizona MRO Services,SKU-SAF-03,Hi-vis vests,Safety,94,25.05,2026-06-27,2026-06-27,4,4,True,1
+PO-1215,2026-06-23,TEM-01,SUP-02,Valley Industrial Supply,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,295,106.81,2026-07-03,2026-07-07,14,10,False,1
+PO-1216,2026-06-23,PHX-01,SUP-04,Desert Office Products,SKU-CLE-04,Trash bags (55 gal),Cleaning,216,179.45,2026-06-27,2026-06-27,4,4,True,1
+PO-1217,2026-06-24,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-04,Ear plugs (box),Safety,67,42.53,2026-06-29,2026-06-29,5,5,True,0
+PO-1218,2026-06-24,PHX-01,SUP-02,Valley Industrial Supply,SKU-PAC-06,Mailers (padded),Packaging,174,66.81,2026-07-01,2026-07-01,7,7,True,2
+PO-1219,2026-06-24,PHX-01,SUP-05,Arizona MRO Services,SKU-MRO-01,LED bulbs (pack),MRO,103,108.4,2026-07-05,2026-07-05,11,11,True,1
+PO-1220,2026-06-24,TEM-01,SUP-05,Arizona MRO Services,SKU-MRO-05,Lubricant spray,MRO,78,158.34,2026-07-02,2026-07-02,8,8,True,1
+PO-1221,2026-06-24,TEM-01,SUP-09,Southwest Janitorial Co,SKU-CLE-07,Hand soap (1 gal),Cleaning,102,29.34,2026-06-30,2026-07-05,11,6,False,1
+PO-1222,2026-06-25,PHX-02,SUP-07,Desert Freight Logistics,SKU-MRO-08,Extension cords,MRO,249,105.71,2026-07-06,2026-07-13,18,11,False,10
+PO-1223,2026-06-25,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-05,Sticky notes,Office,236,87.27,2026-07-01,2026-07-01,6,6,True,1
+PO-1224,2026-06-25,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-02,"Batteries (AA, pack)",MRO,52,107.08,2026-07-03,2026-07-05,10,8,False,6
+PO-1225,2026-06-25,TEM-01,SUP-09,Southwest Janitorial Co,SKU-PAC-05,Bubble wrap,Packaging,72,26.36,2026-07-01,2026-07-01,6,6,True,1
+PO-1226,2026-06-26,PHX-02,SUP-04,Desert Office Products,SKU-MRO-08,Extension cords,MRO,249,100.26,2026-06-30,2026-06-30,4,4,True,0
+PO-1227,2026-06-26,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-01,Nitrile gloves (box),Safety,335,61.08,2026-06-30,2026-06-29,3,4,True,3
+PO-1228,2026-06-26,TEM-01,SUP-02,Valley Industrial Supply,SKU-MRO-05,Lubricant spray,MRO,310,151.26,2026-07-02,2026-07-02,6,6,True,1
+PO-1229,2026-06-26,PHX-02,SUP-04,Desert Office Products,SKU-MRO-07,Light switches,MRO,113,56.24,2026-07-01,2026-06-30,4,5,True,2
+PO-1230,2026-06-27,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-08,Broom & dustpan sets,Cleaning,335,136.48,2026-07-03,2026-07-02,5,6,True,8
+PO-1231,2026-06-27,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,360,96.67,2026-07-07,2026-07-06,9,10,True,3
+PO-1232,2026-06-27,PHX-01,SUP-02,Valley Industrial Supply,SKU-CLE-07,Hand soap (1 gal),Cleaning,83,30.99,2026-07-03,2026-07-03,6,6,True,2
+PO-1233,2026-06-28,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-04,Folders,Office,393,124.01,2026-07-03,2026-07-03,5,5,True,1
+PO-1234,2026-06-28,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-PAC-04,Pallets (48x40),Packaging,388,143.58,2026-07-03,2026-07-03,5,5,True,1
+PO-1235,2026-06-28,PHX-01,SUP-03,Copper State Safety Gear,SKU-CLE-04,Trash bags (55 gal),Cleaning,320,174.62,2026-07-04,2026-07-03,5,6,True,1
+PO-1236,2026-06-28,PHX-01,SUP-03,Copper State Safety Gear,SKU-CLE-04,Trash bags (55 gal),Cleaning,19,176.54,2026-07-05,2026-07-04,6,7,True,0
+PO-1237,2026-06-29,PHX-01,SUP-01,Sonoran Packaging Co,SKU-PAC-04,Pallets (48x40),Packaging,316,142.65,2026-07-05,2026-07-04,5,6,True,3
+PO-1238,2026-06-29,PHX-01,SUP-03,Copper State Safety Gear,SKU-MRO-02,"Batteries (AA, pack)",MRO,98,102.87,2026-07-05,2026-07-04,5,6,True,1
+PO-1239,2026-06-29,PHX-01,SUP-04,Desert Office Products,SKU-OFF-01,Printer paper (ream),Office,57,124.15,2026-07-04,2026-07-03,4,5,True,0
+PO-1240,2026-06-30,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-MRO-08,Extension cords,MRO,28,102.2,2026-07-04,2026-07-03,3,4,True,0
+PO-1241,2026-06-30,PHX-02,SUP-07,Desert Freight Logistics,SKU-SAF-05,First-aid kits,Safety,237,82.24,2026-07-11,2026-07-22,22,11,False,8
+PO-1242,2026-06-30,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-CLE-04,Trash bags (55 gal),Cleaning,108,178.78,2026-07-03,2026-07-02,2,3,True,3
+PO-1243,2026-07-01,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-PAC-07,Labels (4x6),Packaging,162,114.87,2026-07-05,2026-07-05,4,4,True,4
+PO-1244,2026-07-01,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-SAF-01,Nitrile gloves (box),Safety,351,61.6,2026-07-11,2026-07-10,9,10,True,7
+PO-1245,2026-07-01,PHX-01,SUP-04,Desert Office Products,SKU-OFF-08,Desk organizers,Office,107,101.23,2026-07-03,2026-07-02,1,2,True,1
+PO-1246,2026-07-01,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,95,142.91,2026-07-04,2026-07-03,2,3,True,0
+PO-1247,2026-07-01,TEM-01,SUP-05,Arizona MRO Services,SKU-MRO-01,LED bulbs (pack),MRO,302,110.25,2026-07-09,2026-07-11,10,8,False,1
+PO-1248,2026-07-02,TEM-01,SUP-09,Southwest Janitorial Co,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,296,108.85,2026-07-06,2026-07-05,3,4,True,5
+PO-1249,2026-07-02,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-CLE-02,Disinfectant spray,Cleaning,20,150.72,2026-07-06,2026-07-06,4,4,True,0
+PO-1250,2026-07-02,PHX-02,SUP-07,Desert Freight Logistics,SKU-PAC-05,Bubble wrap,Packaging,58,26.09,2026-07-15,2026-07-15,13,13,True,4
+PO-1251,2026-07-02,TEM-01,SUP-01,Sonoran Packaging Co,SKU-CLE-06,Degreaser,Cleaning,235,84.77,2026-07-07,2026-07-10,8,5,False,2
+PO-1252,2026-07-03,PHX-01,SUP-09,Southwest Janitorial Co,SKU-PAC-07,Labels (4x6),Packaging,92,121.29,2026-07-11,2026-07-11,8,8,True,4
+PO-1253,2026-07-03,PHX-01,SUP-01,Sonoran Packaging Co,SKU-PAC-02,Stretch wrap rolls,Packaging,215,154.69,2026-07-07,2026-07-06,3,4,True,1
+PO-1254,2026-07-03,PHX-02,SUP-04,Desert Office Products,SKU-OFF-02,Ink cartridges,Office,213,38.96,2026-07-06,2026-07-05,2,3,True,2
+PO-1255,2026-07-03,TEM-01,SUP-04,Desert Office Products,SKU-SAF-01,Nitrile gloves (box),Safety,314,58.94,2026-07-07,2026-07-07,4,4,True,5
+PO-1256,2026-07-03,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-OFF-04,Folders,Office,343,125.13,2026-07-06,2026-07-06,3,3,True,1
+PO-1257,2026-07-04,PHX-01,SUP-07,Desert Freight Logistics,SKU-MRO-05,Lubricant spray,MRO,125,164.69,2026-07-13,2026-07-13,9,9,True,6
+PO-1258,2026-07-04,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-PAC-07,Labels (4x6),Packaging,370,113.6,2026-07-10,2026-07-10,6,6,True,4
+PO-1259,2026-07-04,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-02,Safety glasses,Safety,169,85.47,2026-07-08,2026-07-08,4,4,True,1
+PO-1260,2026-07-05,TEM-01,SUP-01,Sonoran Packaging Co,SKU-OFF-07,Envelopes,Office,194,122.41,2026-07-12,2026-07-11,6,7,True,1
+PO-1261,2026-07-05,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-OFF-02,Ink cartridges,Office,399,38.02,2026-07-10,2026-07-09,4,5,True,3
+PO-1262,2026-07-05,PHX-02,SUP-04,Desert Office Products,SKU-SAF-04,Ear plugs (box),Safety,192,41.75,2026-07-10,2026-07-09,4,5,True,1
+PO-1263,2026-07-05,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-08,Spill kits,Safety,262,71.49,2026-07-12,2026-07-12,7,7,True,0
+PO-1264,2026-07-06,TEM-01,SUP-02,Valley Industrial Supply,SKU-PAC-05,Bubble wrap,Packaging,387,26.22,2026-07-13,2026-07-13,7,7,True,4
+PO-1265,2026-07-06,PHX-01,SUP-03,Copper State Safety Gear,SKU-OFF-07,Envelopes,Office,99,114.51,2026-07-13,2026-07-13,7,7,True,1
+PO-1266,2026-07-06,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-01,LED bulbs (pack),MRO,292,118.02,2026-07-11,2026-07-11,5,5,True,2
+PO-1267,2026-07-06,PHX-01,SUP-01,Sonoran Packaging Co,SKU-MRO-08,Extension cords,MRO,215,104.01,2026-07-11,2026-07-11,5,5,True,0
+PO-1268,2026-07-06,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-03,Pens (box),Office,97,141.53,2026-07-11,2026-07-16,10,5,False,3
+PO-1269,2026-07-07,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-07,Light switches,MRO,24,56.04,2026-07-12,2026-07-12,5,5,True,0
+PO-1270,2026-07-07,TEM-01,SUP-05,Arizona MRO Services,SKU-SAF-01,Nitrile gloves (box),Safety,302,58.59,2026-07-13,2026-07-12,5,6,True,2
+PO-1271,2026-07-07,PHX-02,SUP-02,Valley Industrial Supply,SKU-MRO-08,Extension cords,MRO,31,104.06,2026-07-14,2026-07-14,7,7,True,0
+PO-1272,2026-07-07,PHX-01,SUP-02,Valley Industrial Supply,SKU-PAC-08,Strapping bands,Packaging,265,81.62,2026-07-14,2026-07-14,7,7,True,2
+PO-1273,2026-07-08,PHX-01,SUP-01,Sonoran Packaging Co,SKU-MRO-02,"Batteries (AA, pack)",MRO,70,105.57,2026-07-12,2026-07-11,3,4,True,0
+PO-1274,2026-07-08,TEM-01,SUP-05,Arizona MRO Services,SKU-OFF-02,Ink cartridges,Office,59,39.46,2026-07-16,2026-07-18,10,8,False,1
+PO-1275,2026-07-08,TEM-01,SUP-09,Southwest Janitorial Co,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,267,103.83,2026-07-13,2026-07-12,4,5,True,3
+PO-1276,2026-07-09,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-SAF-04,Ear plugs (box),Safety,150,44.07,2026-07-12,2026-07-12,3,3,True,1
+PO-1277,2026-07-09,PHX-02,SUP-04,Desert Office Products,SKU-CLE-06,Degreaser,Cleaning,222,87.54,2026-07-12,2026-07-11,2,3,True,3
+PO-1278,2026-07-09,TEM-01,SUP-01,Sonoran Packaging Co,SKU-PAC-05,Bubble wrap,Packaging,195,25.31,2026-07-13,2026-07-13,4,4,True,0
+PO-1279,2026-07-09,PHX-02,SUP-01,Sonoran Packaging Co,SKU-PAC-07,Labels (4x6),Packaging,42,119.44,2026-07-13,2026-07-13,4,4,True,0
+PO-1280,2026-07-09,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,370,142.05,2026-07-15,2026-07-14,5,6,True,7
+PO-1281,2026-07-10,PHX-01,SUP-03,Copper State Safety Gear,SKU-MRO-07,Light switches,MRO,224,54.64,2026-07-17,2026-07-17,7,7,True,2
+PO-1282,2026-07-10,PHX-02,SUP-07,Desert Freight Logistics,SKU-OFF-02,Ink cartridges,Office,205,36.92,2026-07-15,2026-07-15,5,5,True,10
+PO-1283,2026-07-10,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-03,Hi-vis vests,Safety,208,27.46,2026-07-16,2026-07-19,9,6,False,1
+PO-1284,2026-07-10,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-08,Broom & dustpan sets,Cleaning,294,141.58,2026-07-14,2026-07-14,4,4,True,0
+PO-1285,2026-07-10,PHX-01,SUP-07,Desert Freight Logistics,SKU-CLE-08,Broom & dustpan sets,Cleaning,342,130.1,2026-07-19,2026-07-19,9,9,True,12
+PO-1286,2026-07-11,PHX-02,SUP-07,Desert Freight Logistics,SKU-MRO-08,Extension cords,MRO,68,108.17,2026-07-15,2026-07-14,3,4,True,1
+PO-1287,2026-07-11,TEM-01,SUP-04,Desert Office Products,SKU-OFF-07,Envelopes,Office,64,117.9,2026-07-13,2026-07-13,2,2,True,0
+PO-1288,2026-07-11,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-02,Safety glasses,Safety,381,85.94,2026-07-16,2026-07-16,5,5,True,1
+PO-1289,2026-07-11,PHX-01,SUP-09,Southwest Janitorial Co,SKU-CLE-03,Paper towels (case),Cleaning,82,135.65,2026-07-18,2026-07-17,6,7,True,0
+PO-1290,2026-07-11,PHX-02,SUP-07,Desert Freight Logistics,SKU-SAF-01,Nitrile gloves (box),Safety,213,62.77,2026-07-22,2026-07-21,10,11,True,8
+PO-1291,2026-07-12,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-PAC-05,Bubble wrap,Packaging,15,26.57,2026-07-19,2026-07-19,7,7,True,0
+PO-1292,2026-07-12,PHX-02,SUP-04,Desert Office Products,SKU-MRO-02,"Batteries (AA, pack)",MRO,90,99.94,2026-07-16,2026-07-15,3,4,True,0
+PO-1293,2026-07-12,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-PAC-05,Bubble wrap,Packaging,315,26.86,2026-07-18,2026-07-17,5,6,True,2
+PO-1294,2026-07-12,TEM-01,SUP-07,Desert Freight Logistics,SKU-OFF-07,Envelopes,Office,205,119.21,2026-07-22,2026-07-30,18,10,False,4
+PO-1295,2026-07-13,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-06,Hard hats,Safety,319,131.79,2026-07-24,2026-07-24,11,11,True,3
+PO-1296,2026-07-13,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-05,Mop heads,Cleaning,197,147.73,2026-07-26,2026-07-26,13,13,True,0
+PO-1297,2026-07-13,PHX-01,SUP-02,Valley Industrial Supply,SKU-MRO-08,Extension cords,MRO,317,102.08,2026-07-19,2026-07-18,5,6,True,5
+PO-1298,2026-07-13,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-MRO-07,Light switches,MRO,110,51.32,2026-07-17,2026-07-17,4,4,True,0
+PO-1299,2026-07-13,PHX-02,SUP-05,Arizona MRO Services,SKU-MRO-03,Duct tape,MRO,138,9.31,2026-07-24,2026-07-23,10,11,True,1
+PO-1300,2026-07-14,PHX-01,SUP-04,Desert Office Products,SKU-SAF-07,Safety cones,Safety,288,154.65,2026-07-19,2026-07-18,4,5,True,2
+PO-1301,2026-07-14,PHX-01,SUP-05,Arizona MRO Services,SKU-CLE-06,Degreaser,Cleaning,289,87.43,2026-07-20,2026-07-20,6,6,True,4
+PO-1302,2026-07-14,TEM-01,SUP-09,Southwest Janitorial Co,SKU-PAC-02,Stretch wrap rolls,Packaging,177,168.41,2026-07-21,2026-07-21,7,7,True,0
+PO-1303,2026-07-14,PHX-02,SUP-07,Desert Freight Logistics,SKU-OFF-06,Binders,Office,60,27.66,2026-07-29,2026-08-02,19,15,False,3
+PO-1304,2026-07-15,PHX-02,SUP-07,Desert Freight Logistics,SKU-MRO-08,Extension cords,MRO,143,104.99,2026-07-28,2026-07-27,12,13,True,4
+PO-1305,2026-07-15,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-06,Degreaser,Cleaning,38,81.03,2026-07-24,2026-07-23,8,9,True,0
+PO-1306,2026-07-15,TEM-01,SUP-04,Desert Office Products,SKU-CLE-03,Paper towels (case),Cleaning,22,128.53,2026-07-18,2026-07-17,2,3,True,0
+PO-1307,2026-07-15,PHX-01,SUP-04,Desert Office Products,SKU-CLE-06,Degreaser,Cleaning,137,88.78,2026-07-19,2026-07-19,4,4,True,2
+PO-1308,2026-07-16,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-PAC-02,Stretch wrap rolls,Packaging,321,158.04,2026-07-19,2026-07-18,2,3,True,3
+PO-1309,2026-07-16,PHX-01,SUP-05,Arizona MRO Services,SKU-MRO-04,Cable ties (pack),MRO,179,39.5,2026-07-24,2026-07-23,7,8,True,4
+PO-1310,2026-07-16,TEM-01,SUP-04,Desert Office Products,SKU-MRO-06,Air filters,MRO,183,14.14,2026-07-18,2026-07-17,1,2,True,0
+PO-1311,2026-07-16,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-08,Desk organizers,Office,244,105.02,2026-07-20,2026-07-19,3,4,True,1
+PO-1312,2026-07-17,PHX-02,SUP-07,Desert Freight Logistics,SKU-SAF-02,Safety glasses,Safety,113,87.2,2026-07-31,2026-07-31,14,14,True,3
+PO-1313,2026-07-17,PHX-02,SUP-09,Southwest Janitorial Co,SKU-MRO-05,Lubricant spray,MRO,305,154.07,2026-07-23,2026-07-23,6,6,True,2
+PO-1314,2026-07-17,TEM-01,SUP-01,Sonoran Packaging Co,SKU-PAC-07,Labels (4x6),Packaging,147,125.55,2026-07-21,2026-07-21,4,4,True,0
+PO-1315,2026-07-18,PHX-02,SUP-01,Sonoran Packaging Co,SKU-OFF-08,Desk organizers,Office,387,104.47,2026-07-22,2026-07-21,3,4,True,0
+PO-1316,2026-07-18,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-CLE-05,Mop heads,Cleaning,133,137.96,2026-07-26,2026-07-26,8,8,True,1
+PO-1317,2026-07-18,PHX-02,SUP-03,Copper State Safety Gear,SKU-PAC-03,Shipping tape,Packaging,243,21.03,2026-07-25,2026-07-24,6,7,True,1
+PO-1318,2026-07-18,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-08,Broom & dustpan sets,Cleaning,165,131.8,2026-07-27,2026-07-26,8,9,True,1
+PO-1319,2026-07-18,PHX-02,SUP-04,Desert Office Products,SKU-OFF-05,Sticky notes,Office,182,88.08,2026-07-21,2026-07-20,2,3,True,1
+PO-1320,2026-07-19,TEM-01,SUP-03,Copper State Safety Gear,SKU-SAF-04,Ear plugs (box),Safety,369,43.13,2026-07-26,2026-07-25,6,7,True,5
+PO-1321,2026-07-19,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-CLE-06,Degreaser,Cleaning,276,86.27,2026-07-23,2026-07-23,4,4,True,4
+PO-1322,2026-07-19,PHX-02,SUP-05,Arizona MRO Services,SKU-OFF-05,Sticky notes,Office,36,80.03,2026-07-28,2026-07-28,9,9,True,1
+PO-1323,2026-07-19,TEM-01,SUP-04,Desert Office Products,SKU-OFF-08,Desk organizers,Office,356,109.72,2026-07-23,2026-07-22,3,4,True,3
+PO-1324,2026-07-19,PHX-02,SUP-09,Southwest Janitorial Co,SKU-SAF-06,Hard hats,Safety,125,120.16,2026-07-23,2026-07-22,3,4,True,1
+PO-1325,2026-07-20,PHX-01,SUP-07,Desert Freight Logistics,SKU-CLE-03,Paper towels (case),Cleaning,254,137.79,2026-07-31,2026-07-30,10,11,True,13
+PO-1326,2026-07-20,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-CLE-04,Trash bags (55 gal),Cleaning,113,178.04,2026-07-28,2026-07-27,7,8,True,2
+PO-1327,2026-07-20,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-02,Safety glasses,Safety,282,86.68,2026-07-26,2026-07-26,6,6,True,1
+PO-1328,2026-07-21,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-07,Envelopes,Office,207,121.95,2026-07-25,2026-07-24,3,4,True,1
+PO-1329,2026-07-21,TEM-01,SUP-07,Desert Freight Logistics,SKU-SAF-08,Spill kits,Safety,214,76.93,2026-08-03,2026-08-02,12,13,True,6
+PO-1330,2026-07-21,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-OFF-02,Ink cartridges,Office,173,37.95,2026-07-25,2026-07-24,3,4,True,0
+PO-1331,2026-07-22,TEM-01,SUP-05,Arizona MRO Services,SKU-MRO-04,Cable ties (pack),MRO,308,40.02,2026-07-28,2026-07-28,6,6,True,5
+PO-1332,2026-07-22,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,246,101.44,2026-07-25,2026-07-25,3,3,True,0
+PO-1333,2026-07-22,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-06,Binders,Office,380,27.59,2026-07-26,2026-07-26,4,4,True,2
+PO-1334,2026-07-22,PHX-02,SUP-05,Arizona MRO Services,SKU-OFF-08,Desk organizers,Office,228,101.04,2026-08-01,2026-08-01,10,10,True,8
+PO-1335,2026-07-22,PHX-01,SUP-04,Desert Office Products,SKU-CLE-08,Broom & dustpan sets,Cleaning,80,127.6,2026-07-26,2026-07-26,4,4,True,1
+PO-1336,2026-07-23,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-05,Lubricant spray,MRO,22,140.03,2026-07-30,2026-07-29,6,7,True,0
+PO-1337,2026-07-23,PHX-01,SUP-01,Sonoran Packaging Co,SKU-CLE-06,Degreaser,Cleaning,57,86.17,2026-07-27,2026-07-27,4,4,True,0
+PO-1338,2026-07-23,PHX-01,SUP-04,Desert Office Products,SKU-MRO-02,"Batteries (AA, pack)",MRO,64,105.4,2026-07-27,2026-07-27,4,4,True,0
+PO-1339,2026-07-24,PHX-01,SUP-07,Desert Freight Logistics,SKU-PAC-03,Shipping tape,Packaging,76,21.15,2026-08-10,2026-08-21,28,17,False,4
+PO-1340,2026-07-24,TEM-01,SUP-03,Copper State Safety Gear,SKU-MRO-08,Extension cords,MRO,285,99.32,2026-07-29,2026-07-28,4,5,True,0
+PO-1341,2026-07-24,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-CLE-02,Disinfectant spray,Cleaning,223,155.46,2026-07-29,2026-07-28,4,5,True,1
+PO-1342,2026-07-24,PHX-01,SUP-05,Arizona MRO Services,SKU-SAF-01,Nitrile gloves (box),Safety,233,62.26,2026-08-02,2026-08-01,8,9,True,5
+PO-1343,2026-07-24,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-04,Folders,Office,112,132.94,2026-07-28,2026-07-28,4,4,True,1
+PO-1344,2026-07-25,TEM-01,SUP-07,Desert Freight Logistics,SKU-CLE-05,Mop heads,Cleaning,107,141.72,2026-07-26,2026-07-25,0,1,True,5
+PO-1345,2026-07-25,TEM-01,SUP-09,Southwest Janitorial Co,SKU-SAF-03,Hi-vis vests,Safety,387,26.47,2026-07-28,2026-07-27,2,3,True,0
+PO-1346,2026-07-25,PHX-01,SUP-03,Copper State Safety Gear,SKU-OFF-07,Envelopes,Office,395,120.95,2026-08-01,2026-08-01,7,7,True,3
+PO-1347,2026-07-25,PHX-02,SUP-01,Sonoran Packaging Co,SKU-MRO-02,"Batteries (AA, pack)",MRO,228,100.29,2026-07-31,2026-08-02,8,6,False,0
+PO-1348,2026-07-26,PHX-02,SUP-02,Valley Industrial Supply,SKU-CLE-08,Broom & dustpan sets,Cleaning,248,130.28,2026-08-03,2026-08-02,7,8,True,4
+PO-1349,2026-07-26,PHX-02,SUP-03,Copper State Safety Gear,SKU-CLE-02,Disinfectant spray,Cleaning,226,145.18,2026-08-01,2026-07-31,5,6,True,2
+PO-1350,2026-07-26,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-SAF-04,Ear plugs (box),Safety,86,43.43,2026-08-01,2026-07-31,5,6,True,0
+PO-1351,2026-07-26,TEM-01,SUP-02,Valley Industrial Supply,SKU-PAC-03,Shipping tape,Packaging,373,20.36,2026-07-31,2026-07-30,4,5,True,1
+PO-1352,2026-07-27,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-06,Binders,Office,36,29.28,2026-07-30,2026-07-30,3,3,True,1
+PO-1353,2026-07-27,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-MRO-04,Cable ties (pack),MRO,192,42.61,2026-08-02,2026-08-02,6,6,True,1
+PO-1354,2026-07-27,TEM-01,SUP-05,Arizona MRO Services,SKU-SAF-02,Safety glasses,Safety,304,84.33,2026-07-31,2026-07-31,4,4,True,4
+PO-1355,2026-07-27,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-02,"Batteries (AA, pack)",MRO,32,101.05,2026-08-02,2026-08-02,6,6,True,0
+PO-1356,2026-07-27,PHX-01,SUP-07,Desert Freight Logistics,SKU-OFF-05,Sticky notes,Office,260,80.58,2026-08-05,2026-08-04,8,9,True,11
+PO-1357,2026-07-28,TEM-01,SUP-02,Valley Industrial Supply,SKU-CLE-03,Paper towels (case),Cleaning,215,130.4,2026-07-31,2026-07-31,3,3,True,2
+PO-1358,2026-07-28,TEM-01,SUP-01,Sonoran Packaging Co,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,360,142.81,2026-08-03,2026-08-02,5,6,True,1
+PO-1359,2026-07-28,PHX-01,SUP-09,Southwest Janitorial Co,SKU-MRO-03,Duct tape,MRO,292,9.74,2026-08-02,2026-08-02,5,5,True,1
+PO-1360,2026-07-28,PHX-02,SUP-01,Sonoran Packaging Co,SKU-PAC-07,Labels (4x6),Packaging,368,120.94,2026-08-02,2026-08-01,4,5,True,0
+PO-1361,2026-07-29,PHX-02,SUP-09,Southwest Janitorial Co,SKU-MRO-03,Duct tape,MRO,336,9.14,2026-08-02,2026-08-01,3,4,True,4
+PO-1362,2026-07-29,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-01,Nitrile gloves (box),Safety,29,62.71,2026-08-05,2026-08-04,6,7,True,0
+PO-1363,2026-07-29,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-06,Binders,Office,274,29.3,2026-08-06,2026-08-06,8,8,True,5
+PO-1364,2026-07-30,PHX-01,SUP-03,Copper State Safety Gear,SKU-MRO-02,"Batteries (AA, pack)",MRO,243,105.48,2026-08-04,2026-08-03,4,5,True,2
+PO-1365,2026-07-30,TEM-01,SUP-07,Desert Freight Logistics,SKU-SAF-01,Nitrile gloves (box),Safety,56,59.16,2026-08-02,2026-08-02,3,3,True,1
+PO-1366,2026-07-30,PHX-02,SUP-09,Southwest Janitorial Co,SKU-MRO-05,Lubricant spray,MRO,397,154.27,2026-08-04,2026-08-04,5,5,True,4
+PO-1367,2026-07-30,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-05,Lubricant spray,MRO,68,144.8,2026-08-05,2026-08-04,5,6,True,0
+PO-1368,2026-07-30,PHX-02,SUP-09,Southwest Janitorial Co,SKU-OFF-01,Printer paper (ream),Office,210,124.93,2026-08-04,2026-08-12,13,5,False,2
+PO-1369,2026-07-31,PHX-01,SUP-04,Desert Office Products,SKU-CLE-06,Degreaser,Cleaning,324,86.13,2026-08-04,2026-08-03,3,4,True,2
+PO-1370,2026-07-31,PHX-02,SUP-01,Sonoran Packaging Co,SKU-MRO-07,Light switches,MRO,77,55.47,2026-08-06,2026-08-05,5,6,True,0
+PO-1371,2026-07-31,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-07,Envelopes,Office,137,125.32,2026-08-12,2026-08-12,12,12,True,0
+PO-1372,2026-08-01,PHX-02,SUP-01,Sonoran Packaging Co,SKU-MRO-01,LED bulbs (pack),MRO,249,114.64,2026-08-08,2026-08-07,6,7,True,1
+PO-1373,2026-08-01,TEM-01,SUP-05,Arizona MRO Services,SKU-PAC-02,Stretch wrap rolls,Packaging,48,155.16,2026-08-09,2026-08-14,13,8,False,0
+PO-1374,2026-08-01,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-04,Ear plugs (box),Safety,154,43.66,2026-08-04,2026-08-03,2,3,True,1
+PO-1375,2026-08-01,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-02,"Batteries (AA, pack)",MRO,39,100.75,2026-08-08,2026-08-07,6,7,True,0
+PO-1376,2026-08-01,PHX-02,SUP-05,Arizona MRO Services,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,43,104.8,2026-08-09,2026-08-09,8,8,True,1
+PO-1377,2026-08-02,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-SAF-04,Ear plugs (box),Safety,154,43.52,2026-08-07,2026-08-13,11,5,False,1
+PO-1378,2026-08-02,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-03,Hi-vis vests,Safety,303,27.27,2026-08-10,2026-08-10,8,8,True,1
+PO-1379,2026-08-02,PHX-02,SUP-07,Desert Freight Logistics,SKU-PAC-03,Shipping tape,Packaging,128,20.35,2026-08-12,2026-08-11,9,10,True,7
+PO-1380,2026-08-02,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-04,Ear plugs (box),Safety,87,45.69,2026-08-11,2026-08-10,8,9,True,2
+PO-1381,2026-08-02,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-CLE-07,Hand soap (1 gal),Cleaning,237,29.46,2026-08-05,2026-08-04,2,3,True,2
+PO-1382,2026-08-03,PHX-01,SUP-03,Copper State Safety Gear,SKU-OFF-03,Pens (box),Office,397,144.13,2026-08-11,2026-08-11,8,8,True,3
+PO-1383,2026-08-03,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-02,Safety glasses,Safety,191,86.41,2026-08-12,2026-08-12,9,9,True,2
+PO-1384,2026-08-03,PHX-02,SUP-02,Valley Industrial Supply,SKU-MRO-08,Extension cords,MRO,121,102.99,2026-08-11,2026-08-10,7,8,True,1
+PO-1385,2026-08-04,TEM-01,SUP-07,Desert Freight Logistics,SKU-PAC-07,Labels (4x6),Packaging,36,114.42,2026-08-18,2026-08-29,25,14,False,2
+PO-1386,2026-08-04,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-MRO-06,Air filters,MRO,163,14.22,2026-08-06,2026-08-05,1,2,True,2
+PO-1387,2026-08-04,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-05,Lubricant spray,MRO,230,158.03,2026-08-09,2026-08-09,5,5,True,3
+PO-1388,2026-08-05,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-CLE-08,Broom & dustpan sets,Cleaning,127,132.33,2026-08-13,2026-08-12,7,8,True,1
+PO-1389,2026-08-05,PHX-01,SUP-03,Copper State Safety Gear,SKU-SAF-05,First-aid kits,Safety,194,84.67,2026-08-10,2026-08-10,5,5,True,2
+PO-1390,2026-08-05,PHX-01,SUP-04,Desert Office Products,SKU-CLE-03,Paper towels (case),Cleaning,43,134.05,2026-08-09,2026-08-08,3,4,True,0
+PO-1391,2026-08-05,PHX-02,SUP-02,Valley Industrial Supply,SKU-CLE-03,Paper towels (case),Cleaning,209,142.4,2026-08-11,2026-08-11,6,6,True,5
+PO-1392,2026-08-05,PHX-01,SUP-09,Southwest Janitorial Co,SKU-SAF-06,Hard hats,Safety,378,126.91,2026-08-12,2026-08-12,7,7,True,4
+PO-1393,2026-08-06,TEM-01,SUP-09,Southwest Janitorial Co,SKU-SAF-07,Safety cones,Safety,18,151.79,2026-08-12,2026-08-12,6,6,True,0
+PO-1394,2026-08-06,PHX-01,SUP-09,Southwest Janitorial Co,SKU-MRO-07,Light switches,MRO,106,54.69,2026-08-09,2026-08-08,2,3,True,1
+PO-1395,2026-08-06,PHX-01,SUP-03,Copper State Safety Gear,SKU-SAF-01,Nitrile gloves (box),Safety,174,60.06,2026-08-12,2026-08-11,5,6,True,1
+PO-1396,2026-08-06,PHX-01,SUP-05,Arizona MRO Services,SKU-PAC-07,Labels (4x6),Packaging,298,117.25,2026-08-13,2026-08-13,7,7,True,6
+PO-1397,2026-08-06,PHX-01,SUP-04,Desert Office Products,SKU-OFF-05,Sticky notes,Office,87,84.16,2026-08-11,2026-08-10,4,5,True,1
+PO-1398,2026-08-07,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-03,Paper towels (case),Cleaning,46,136.51,2026-08-12,2026-08-11,4,5,True,0
+PO-1399,2026-08-07,PHX-02,SUP-09,Southwest Janitorial Co,SKU-CLE-07,Hand soap (1 gal),Cleaning,315,32.35,2026-08-10,2026-08-09,2,3,True,1
+PO-1400,2026-08-07,TEM-01,SUP-05,Arizona MRO Services,SKU-PAC-02,Stretch wrap rolls,Packaging,217,161.62,2026-08-13,2026-08-12,5,6,True,4
+PO-1401,2026-08-08,TEM-01,SUP-07,Desert Freight Logistics,SKU-SAF-06,Hard hats,Safety,231,123.0,2026-08-22,2026-08-29,21,14,False,6
+PO-1402,2026-08-08,PHX-02,SUP-01,Sonoran Packaging Co,SKU-PAC-03,Shipping tape,Packaging,378,20.77,2026-08-13,2026-08-13,5,5,True,5
+PO-1403,2026-08-08,TEM-01,SUP-09,Southwest Janitorial Co,SKU-CLE-04,Trash bags (55 gal),Cleaning,95,174.1,2026-08-15,2026-08-14,6,7,True,1
+PO-1404,2026-08-08,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-05,First-aid kits,Safety,111,84.07,2026-08-17,2026-08-16,8,9,True,1
+PO-1405,2026-08-09,TEM-01,SUP-04,Desert Office Products,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,279,107.22,2026-08-12,2026-08-11,2,3,True,2
+PO-1406,2026-08-09,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-05,Sticky notes,Office,189,84.7,2026-08-12,2026-08-11,2,3,True,1
+PO-1407,2026-08-09,PHX-02,SUP-09,Southwest Janitorial Co,SKU-CLE-07,Hand soap (1 gal),Cleaning,274,31.76,2026-08-15,2026-08-17,8,6,False,1
+PO-1408,2026-08-10,PHX-01,SUP-07,Desert Freight Logistics,SKU-PAC-05,Bubble wrap,Packaging,105,26.42,2026-08-27,2026-09-05,26,17,False,2
+PO-1409,2026-08-10,TEM-01,SUP-02,Valley Industrial Supply,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,91,101.96,2026-08-18,2026-08-17,7,8,True,1
+PO-1410,2026-08-10,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-08,Spill kits,Safety,179,70.7,2026-08-16,2026-08-15,5,6,True,0
+PO-1411,2026-08-10,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-07,Light switches,MRO,372,52.63,2026-08-26,2026-08-25,15,16,True,19
+PO-1412,2026-08-11,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-03,Duct tape,MRO,223,9.37,2026-08-18,2026-08-18,7,7,True,2
+PO-1413,2026-08-11,PHX-02,SUP-05,Arizona MRO Services,SKU-CLE-03,Paper towels (case),Cleaning,154,143.62,2026-08-20,2026-08-20,9,9,True,1
+PO-1414,2026-08-11,PHX-01,SUP-05,Arizona MRO Services,SKU-OFF-07,Envelopes,Office,154,121.68,2026-08-21,2026-08-20,9,10,True,3
+PO-1415,2026-08-12,PHX-02,SUP-04,Desert Office Products,SKU-CLE-04,Trash bags (55 gal),Cleaning,131,172.13,2026-08-17,2026-08-16,4,5,True,3
+PO-1416,2026-08-12,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-SAF-02,Safety glasses,Safety,301,84.97,2026-08-15,2026-08-14,2,3,True,1
+PO-1417,2026-08-12,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-SAF-01,Nitrile gloves (box),Safety,335,61.55,2026-08-23,2026-08-23,11,11,True,6
+PO-1418,2026-08-12,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-01,Printer paper (ream),Office,188,122.76,2026-08-17,2026-08-16,4,5,True,0
+PO-1419,2026-08-13,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-01,Nitrile gloves (box),Safety,216,62.74,2026-08-20,2026-08-20,7,7,True,2
+PO-1420,2026-08-13,PHX-02,SUP-01,Sonoran Packaging Co,SKU-SAF-03,Hi-vis vests,Safety,139,26.88,2026-08-18,2026-08-18,5,5,True,0
+PO-1421,2026-08-13,TEM-01,SUP-02,Valley Industrial Supply,SKU-PAC-06,Mailers (padded),Packaging,392,71.3,2026-08-23,2026-08-22,9,10,True,1
+PO-1422,2026-08-14,TEM-01,SUP-05,Arizona MRO Services,SKU-CLE-01,Floor cleaner (5 gal),Cleaning,252,105.26,2026-08-23,2026-08-23,9,9,True,1
+PO-1423,2026-08-14,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-SAF-04,Ear plugs (box),Safety,270,43.06,2026-08-19,2026-08-18,4,5,True,4
+PO-1424,2026-08-14,TEM-01,SUP-07,Desert Freight Logistics,SKU-OFF-05,Sticky notes,Office,68,88.41,2026-08-23,2026-08-23,9,9,True,1
+PO-1425,2026-08-14,TEM-01,SUP-05,Arizona MRO Services,SKU-CLE-03,Paper towels (case),Cleaning,352,137.94,2026-08-20,2026-08-22,8,6,False,0
+PO-1426,2026-08-14,PHX-02,SUP-02,Valley Industrial Supply,SKU-OFF-03,Pens (box),Office,33,137.86,2026-08-19,2026-08-19,5,5,True,0
+PO-1427,2026-08-15,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-SAF-08,Spill kits,Safety,90,70.73,2026-08-27,2026-08-26,11,12,True,1
+PO-1428,2026-08-15,PHX-01,SUP-07,Desert Freight Logistics,SKU-OFF-05,Sticky notes,Office,366,83.4,2026-08-28,2026-09-01,17,13,False,12
+PO-1429,2026-08-15,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-PAC-07,Labels (4x6),Packaging,120,117.31,2026-08-19,2026-08-18,3,4,True,3
+PO-1430,2026-08-15,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-06,Air filters,MRO,46,13.91,2026-08-20,2026-08-19,4,5,True,0
+PO-1431,2026-08-16,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-05,First-aid kits,Safety,136,78.0,2026-08-22,2026-08-22,6,6,True,3
+PO-1432,2026-08-16,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-08,Spill kits,Safety,110,74.41,2026-08-20,2026-08-19,3,4,True,0
+PO-1433,2026-08-16,PHX-02,SUP-03,Copper State Safety Gear,SKU-CLE-03,Paper towels (case),Cleaning,87,132.48,2026-08-22,2026-08-21,5,6,True,0
+PO-1434,2026-08-16,TEM-01,SUP-02,Valley Industrial Supply,SKU-OFF-03,Pens (box),Office,286,150.81,2026-08-26,2026-08-26,10,10,True,1
+PO-1435,2026-08-16,PHX-02,SUP-07,Desert Freight Logistics,SKU-OFF-05,Sticky notes,Office,85,85.34,2026-08-23,2026-08-23,7,7,True,4
+PO-1436,2026-08-17,TEM-01,SUP-07,Desert Freight Logistics,SKU-OFF-01,Printer paper (ream),Office,371,119.09,2026-09-02,2026-09-01,15,16,True,16
+PO-1437,2026-08-17,PHX-01,SUP-09,Southwest Janitorial Co,SKU-OFF-03,Pens (box),Office,91,130.79,2026-08-25,2026-08-24,7,8,True,1
+PO-1438,2026-08-17,TEM-01,SUP-09,Southwest Janitorial Co,SKU-CLE-04,Trash bags (55 gal),Cleaning,37,181.48,2026-08-22,2026-08-22,5,5,True,0
+PO-1439,2026-08-18,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-03,Paper towels (case),Cleaning,133,140.41,2026-08-23,2026-08-22,4,5,True,0
+PO-1440,2026-08-18,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-06,Air filters,MRO,45,13.35,2026-08-24,2026-08-24,6,6,True,0
+PO-1441,2026-08-18,PHX-02,SUP-04,Desert Office Products,SKU-PAC-05,Bubble wrap,Packaging,78,25.54,2026-08-22,2026-08-22,4,4,True,2
+PO-1442,2026-08-18,PHX-02,SUP-07,Desert Freight Logistics,SKU-CLE-08,Broom & dustpan sets,Cleaning,318,132.32,2026-08-27,2026-08-27,9,9,True,21
+PO-1443,2026-08-18,PHX-02,SUP-03,Copper State Safety Gear,SKU-OFF-05,Sticky notes,Office,365,83.28,2026-08-25,2026-08-25,7,7,True,2
+PO-1444,2026-08-19,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-SAF-02,Safety glasses,Safety,161,85.05,2026-08-23,2026-08-22,3,4,True,1
+PO-1445,2026-08-19,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-02,Disinfectant spray,Cleaning,355,147.65,2026-08-26,2026-08-26,7,7,True,2
+PO-1446,2026-08-19,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-PAC-08,Strapping bands,Packaging,339,86.05,2026-08-24,2026-08-24,5,5,True,1
+PO-1447,2026-08-19,PHX-01,SUP-02,Valley Industrial Supply,SKU-MRO-04,Cable ties (pack),MRO,155,42.8,2026-08-25,2026-08-24,5,6,True,2
+PO-1448,2026-08-19,PHX-01,SUP-02,Valley Industrial Supply,SKU-CLE-05,Mop heads,Cleaning,217,139.88,2026-08-27,2026-08-26,7,8,True,3
+PO-1449,2026-08-20,PHX-02,SUP-04,Desert Office Products,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,44,138.73,2026-08-24,2026-08-23,3,4,True,0
+PO-1450,2026-08-20,TEM-01,SUP-04,Desert Office Products,SKU-OFF-08,Desk organizers,Office,306,104.66,2026-08-25,2026-08-25,5,5,True,3
+PO-1451,2026-08-20,TEM-01,SUP-05,Arizona MRO Services,SKU-CLE-08,Broom & dustpan sets,Cleaning,76,136.71,2026-08-24,2026-09-04,15,4,False,1
+PO-1452,2026-08-20,PHX-01,SUP-03,Copper State Safety Gear,SKU-PAC-04,Pallets (48x40),Packaging,162,139.09,2026-08-26,2026-08-30,10,6,False,3
+PO-1453,2026-08-21,PHX-01,SUP-03,Copper State Safety Gear,SKU-OFF-02,Ink cartridges,Office,273,39.34,2026-08-26,2026-08-26,5,5,True,4
+PO-1454,2026-08-21,PHX-01,SUP-02,Valley Industrial Supply,SKU-OFF-04,Folders,Office,156,124.69,2026-08-28,2026-08-27,6,7,True,1
+PO-1455,2026-08-21,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-03,Pens (box),Office,115,148.59,2026-08-26,2026-08-25,4,5,True,0
+PO-1456,2026-08-22,TEM-01,SUP-01,Sonoran Packaging Co,SKU-PAC-08,Strapping bands,Packaging,85,80.95,2026-08-26,2026-08-25,3,4,True,1
+PO-1457,2026-08-22,TEM-01,SUP-07,Desert Freight Logistics,SKU-CLE-02,Disinfectant spray,Cleaning,220,160.76,2026-09-02,2026-09-04,13,11,False,11
+PO-1458,2026-08-22,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-PAC-03,Shipping tape,Packaging,312,20.06,2026-08-31,2026-08-30,8,9,True,8
+PO-1459,2026-08-23,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-02,"Batteries (AA, pack)",MRO,259,102.39,2026-08-27,2026-08-27,4,4,True,0
+PO-1460,2026-08-23,PHX-02,SUP-09,Southwest Janitorial Co,SKU-PAC-07,Labels (4x6),Packaging,127,118.13,2026-08-31,2026-08-31,8,8,True,1
+PO-1461,2026-08-23,TEM-01,SUP-09,Southwest Janitorial Co,SKU-PAC-03,Shipping tape,Packaging,367,21.18,2026-08-30,2026-09-02,10,7,False,2
+PO-1462,2026-08-24,PHX-01,SUP-01,Sonoran Packaging Co,SKU-OFF-01,Printer paper (ream),Office,279,129.07,2026-08-30,2026-08-29,5,6,True,1
+PO-1463,2026-08-24,TEM-01,SUP-01,Sonoran Packaging Co,SKU-OFF-03,Pens (box),Office,77,145.84,2026-08-30,2026-08-29,5,6,True,0
+PO-1464,2026-08-24,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-07,Hand soap (1 gal),Cleaning,11,30.39,2026-08-29,2026-08-28,4,5,True,0
+PO-1465,2026-08-24,PHX-01,SUP-03,Copper State Safety Gear,SKU-PAC-02,Stretch wrap rolls,Packaging,396,158.59,2026-09-01,2026-09-01,8,8,True,1
+PO-1466,2026-08-24,PHX-02,SUP-03,Copper State Safety Gear,SKU-PAC-08,Strapping bands,Packaging,20,83.73,2026-08-29,2026-08-29,5,5,True,0
+PO-1467,2026-08-25,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-PAC-04,Pallets (48x40),Packaging,70,139.49,2026-09-04,2026-09-04,10,10,True,2
+PO-1468,2026-08-25,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-SAF-06,Hard hats,Safety,340,122.96,2026-08-29,2026-08-29,4,4,True,1
+PO-1469,2026-08-25,PHX-01,SUP-07,Desert Freight Logistics,SKU-CLE-07,Hand soap (1 gal),Cleaning,283,30.41,2026-09-08,2026-09-07,13,14,True,14
+PO-1470,2026-08-25,PHX-01,SUP-02,Valley Industrial Supply,SKU-OFF-01,Printer paper (ream),Office,328,123.7,2026-08-31,2026-08-31,6,6,True,4
+PO-1471,2026-08-26,PHX-01,SUP-07,Desert Freight Logistics,SKU-PAC-08,Strapping bands,Packaging,317,80.54,2026-09-03,2026-09-02,7,8,True,14
+PO-1472,2026-08-26,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-02,Safety glasses,Safety,53,88.06,2026-09-02,2026-09-01,6,7,True,0
+PO-1473,2026-08-26,PHX-01,SUP-02,Valley Industrial Supply,SKU-CLE-02,Disinfectant spray,Cleaning,104,146.88,2026-09-01,2026-09-01,6,6,True,1
+PO-1474,2026-08-27,PHX-01,SUP-03,Copper State Safety Gear,SKU-PAC-06,Mailers (padded),Packaging,354,70.87,2026-09-03,2026-09-02,6,7,True,4
+PO-1475,2026-08-27,PHX-02,SUP-02,Valley Industrial Supply,SKU-MRO-07,Light switches,MRO,225,53.17,2026-09-03,2026-09-02,6,7,True,3
+PO-1476,2026-08-27,PHX-01,SUP-01,Sonoran Packaging Co,SKU-MRO-01,LED bulbs (pack),MRO,116,113.2,2026-09-02,2026-09-01,5,6,True,1
+PO-1477,2026-08-27,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-04,Ear plugs (box),Safety,142,43.79,2026-08-31,2026-08-30,3,4,True,2
+PO-1478,2026-08-27,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-06,Air filters,MRO,131,14.01,2026-09-01,2026-08-31,4,5,True,1
+PO-1479,2026-08-28,PHX-02,SUP-05,Arizona MRO Services,SKU-SAF-01,Nitrile gloves (box),Safety,65,61.94,2026-09-06,2026-09-06,9,9,True,0
+PO-1480,2026-08-28,PHX-01,SUP-02,Valley Industrial Supply,SKU-PAC-04,Pallets (48x40),Packaging,84,142.17,2026-09-04,2026-09-04,7,7,True,0
+PO-1481,2026-08-28,PHX-02,SUP-05,Arizona MRO Services,SKU-SAF-03,Hi-vis vests,Safety,251,28.02,2026-09-07,2026-09-06,9,10,True,3
+PO-1482,2026-08-29,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-MRO-07,Light switches,MRO,346,55.57,2026-09-03,2026-09-03,5,5,True,1
+PO-1483,2026-08-29,PHX-01,SUP-09,Southwest Janitorial Co,SKU-MRO-08,Extension cords,MRO,290,98.75,2026-09-05,2026-09-05,7,7,True,3
+PO-1484,2026-08-29,TEM-01,SUP-01,Sonoran Packaging Co,SKU-PAC-05,Bubble wrap,Packaging,324,27.27,2026-09-04,2026-09-03,5,6,True,1
+PO-1485,2026-08-29,TEM-01,SUP-02,Valley Industrial Supply,SKU-OFF-06,Binders,Office,49,28.89,2026-09-04,2026-09-04,6,6,True,0
+PO-1486,2026-08-30,PHX-02,SUP-02,Valley Industrial Supply,SKU-MRO-01,LED bulbs (pack),MRO,245,110.83,2026-09-07,2026-09-07,8,8,True,2
+PO-1487,2026-08-30,TEM-01,SUP-09,Southwest Janitorial Co,SKU-PAC-03,Shipping tape,Packaging,198,20.04,2026-09-06,2026-09-06,7,7,True,2
+PO-1488,2026-08-30,PHX-02,SUP-04,Desert Office Products,SKU-SAF-05,First-aid kits,Safety,354,81.9,2026-09-02,2026-09-02,3,3,True,5
+PO-1489,2026-08-31,TEM-01,SUP-02,Valley Industrial Supply,SKU-PAC-05,Bubble wrap,Packaging,206,26.41,2026-09-07,2026-09-07,7,7,True,3
+PO-1490,2026-08-31,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-MRO-04,Cable ties (pack),MRO,214,40.81,2026-09-07,2026-09-07,7,7,True,2
+PO-1491,2026-08-31,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-07,Safety cones,Safety,197,155.04,2026-09-11,2026-09-10,10,11,True,1
+PO-1492,2026-08-31,PHX-02,SUP-04,Desert Office Products,SKU-MRO-03,Duct tape,MRO,58,9.5,2026-09-04,2026-09-04,4,4,True,1
+PO-1493,2026-09-01,TEM-01,SUP-05,Arizona MRO Services,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,215,138.36,2026-09-10,2026-09-10,9,9,True,2
+PO-1494,2026-09-01,PHX-02,SUP-07,Desert Freight Logistics,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,367,142.39,2026-09-22,2026-09-24,23,21,False,19
+PO-1495,2026-09-01,PHX-02,SUP-03,Copper State Safety Gear,SKU-OFF-03,Pens (box),Office,211,145.27,2026-09-06,2026-09-06,5,5,True,3
+PO-1496,2026-09-01,TEM-01,SUP-02,Valley Industrial Supply,SKU-CLE-03,Paper towels (case),Cleaning,63,142.1,2026-09-10,2026-09-18,17,9,False,1
+PO-1497,2026-09-02,TEM-01,SUP-09,Southwest Janitorial Co,SKU-PAC-03,Shipping tape,Packaging,52,20.76,2026-09-07,2026-09-06,4,5,True,1
+PO-1498,2026-09-02,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-04,Ear plugs (box),Safety,29,43.89,2026-09-06,2026-09-05,3,4,True,0
+PO-1499,2026-09-02,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-PAC-05,Bubble wrap,Packaging,266,25.69,2026-09-07,2026-09-06,4,5,True,1
+PO-1500,2026-09-03,PHX-01,SUP-05,Arizona MRO Services,SKU-OFF-01,Printer paper (ream),Office,316,123.25,2026-09-13,2026-09-13,10,10,True,3
+PO-1501,2026-09-03,PHX-02,SUP-09,Southwest Janitorial Co,SKU-PAC-05,Bubble wrap,Packaging,144,26.88,2026-09-10,2026-09-10,7,7,True,3
+PO-1502,2026-09-03,TEM-01,SUP-05,Arizona MRO Services,SKU-MRO-01,LED bulbs (pack),MRO,229,113.89,2026-09-10,2026-09-16,13,7,False,1
+PO-1503,2026-09-04,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-CLE-06,Degreaser,Cleaning,135,87.4,2026-09-08,2026-09-08,4,4,True,0
+PO-1504,2026-09-04,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-04,Cable ties (pack),MRO,49,41.45,2026-09-10,2026-09-09,5,6,True,1
+PO-1505,2026-09-04,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-MRO-01,LED bulbs (pack),MRO,279,114.74,2026-09-07,2026-09-07,3,3,True,6
+PO-1506,2026-09-05,PHX-01,SUP-03,Copper State Safety Gear,SKU-MRO-06,Air filters,MRO,361,14.23,2026-09-11,2026-09-11,6,6,True,3
+PO-1507,2026-09-05,PHX-01,SUP-05,Arizona MRO Services,SKU-CLE-08,Broom & dustpan sets,Cleaning,295,130.73,2026-09-12,2026-09-11,6,7,True,2
+PO-1508,2026-09-05,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-07,Light switches,MRO,181,55.24,2026-09-09,2026-09-09,4,4,True,1
+PO-1509,2026-09-06,PHX-02,SUP-09,Southwest Janitorial Co,SKU-MRO-02,"Batteries (AA, pack)",MRO,364,97.76,2026-09-13,2026-09-13,7,7,True,5
+PO-1510,2026-09-06,PHX-02,SUP-05,Arizona MRO Services,SKU-MRO-05,Lubricant spray,MRO,223,147.05,2026-09-17,2026-09-16,10,11,True,2
+PO-1511,2026-09-06,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,343,140.5,2026-09-08,2026-09-07,1,2,True,3
+PO-1512,2026-09-06,PHX-02,SUP-09,Southwest Janitorial Co,SKU-CLE-06,Degreaser,Cleaning,172,85.84,2026-09-12,2026-09-11,5,6,True,0
+PO-1513,2026-09-07,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-PAC-02,Stretch wrap rolls,Packaging,299,163.84,2026-09-12,2026-09-12,5,5,True,1
+PO-1514,2026-09-07,PHX-01,SUP-07,Desert Freight Logistics,SKU-OFF-05,Sticky notes,Office,395,86.11,2026-09-25,2026-10-05,28,18,False,17
+PO-1515,2026-09-07,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-PAC-03,Shipping tape,Packaging,325,20.61,2026-09-12,2026-09-11,4,5,True,0
+PO-1516,2026-09-07,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-05,First-aid kits,Safety,178,79.63,2026-09-13,2026-09-13,6,6,True,1
+PO-1517,2026-09-07,PHX-01,SUP-09,Southwest Janitorial Co,SKU-MRO-08,Extension cords,MRO,20,106.51,2026-09-14,2026-09-14,7,7,True,0
+PO-1518,2026-09-08,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-MRO-01,LED bulbs (pack),MRO,100,110.81,2026-09-16,2026-09-16,8,8,True,2
+PO-1519,2026-09-08,PHX-02,SUP-02,Valley Industrial Supply,SKU-CLE-06,Degreaser,Cleaning,193,89.81,2026-09-16,2026-09-19,11,8,False,3
+PO-1520,2026-09-08,PHX-02,SUP-02,Valley Industrial Supply,SKU-OFF-02,Ink cartridges,Office,119,37.64,2026-09-15,2026-09-15,7,7,True,2
+PO-1521,2026-09-08,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-MRO-06,Air filters,MRO,252,14.64,2026-09-17,2026-09-16,8,9,True,4
+PO-1522,2026-09-08,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-04,Trash bags (55 gal),Cleaning,135,176.23,2026-09-19,2026-09-18,10,11,True,2
+PO-1523,2026-09-09,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-08,Extension cords,MRO,100,106.45,2026-09-13,2026-09-13,4,4,True,0
+PO-1524,2026-09-09,TEM-01,SUP-05,Arizona MRO Services,SKU-CLE-03,Paper towels (case),Cleaning,300,142.87,2026-09-19,2026-09-18,9,10,True,3
+PO-1525,2026-09-09,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-08,Broom & dustpan sets,Cleaning,360,136.89,2026-09-14,2026-09-13,4,5,True,3
+PO-1526,2026-09-10,PHX-01,SUP-09,Southwest Janitorial Co,SKU-PAC-03,Shipping tape,Packaging,99,20.8,2026-09-13,2026-09-12,2,3,True,5
+PO-1527,2026-09-10,TEM-01,SUP-03,Copper State Safety Gear,SKU-SAF-02,Safety glasses,Safety,121,86.74,2026-09-16,2026-09-15,5,6,True,2
+PO-1528,2026-09-10,PHX-01,SUP-03,Copper State Safety Gear,SKU-SAF-05,First-aid kits,Safety,106,77.73,2026-09-15,2026-09-15,5,5,True,1
+PO-1529,2026-09-10,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-01,Printer paper (ream),Office,357,125.87,2026-09-22,2026-09-22,12,12,True,1
+PO-1530,2026-09-11,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-07,Light switches,MRO,252,56.26,2026-09-17,2026-09-17,6,6,True,2
+PO-1531,2026-09-11,TEM-01,SUP-09,Southwest Janitorial Co,SKU-OFF-08,Desk organizers,Office,90,106.74,2026-09-17,2026-09-16,5,6,True,0
+PO-1532,2026-09-11,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-08,Spill kits,Safety,172,74.21,2026-09-18,2026-09-17,6,7,True,1
+PO-1533,2026-09-11,PHX-02,SUP-09,Southwest Janitorial Co,SKU-SAF-05,First-aid kits,Safety,261,82.68,2026-09-18,2026-09-18,7,7,True,1
+PO-1534,2026-09-12,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-CLE-04,Trash bags (55 gal),Cleaning,102,168.6,2026-09-19,2026-09-19,7,7,True,0
+PO-1535,2026-09-12,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-CLE-05,Mop heads,Cleaning,89,140.81,2026-09-17,2026-09-16,4,5,True,0
+PO-1536,2026-09-12,PHX-01,SUP-02,Valley Industrial Supply,SKU-SAF-06,Hard hats,Safety,96,122.14,2026-09-20,2026-09-20,8,8,True,1
+PO-1537,2026-09-12,PHX-02,SUP-03,Copper State Safety Gear,SKU-SAF-01,Nitrile gloves (box),Safety,92,59.47,2026-09-18,2026-09-18,6,6,True,0
+PO-1538,2026-09-12,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-06,Binders,Office,24,30.15,2026-09-20,2026-09-20,8,8,True,0
+PO-1539,2026-09-13,PHX-01,SUP-03,Copper State Safety Gear,SKU-MRO-04,Cable ties (pack),MRO,34,43.52,2026-09-18,2026-09-17,4,5,True,0
+PO-1540,2026-09-13,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-PAC-04,Pallets (48x40),Packaging,145,131.14,2026-09-16,2026-09-16,3,3,True,0
+PO-1541,2026-09-13,PHX-01,SUP-04,Desert Office Products,SKU-OFF-01,Printer paper (ream),Office,317,121.96,2026-09-17,2026-09-16,3,4,True,2
+PO-1542,2026-09-14,PHX-02,SUP-01,Sonoran Packaging Co,SKU-PAC-02,Stretch wrap rolls,Packaging,300,151.85,2026-09-17,2026-09-16,2,3,True,2
+PO-1543,2026-09-14,PHX-02,SUP-01,Sonoran Packaging Co,SKU-PAC-07,Labels (4x6),Packaging,139,117.1,2026-09-19,2026-09-18,4,5,True,1
+PO-1544,2026-09-14,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-07,Light switches,MRO,235,56.88,2026-09-18,2026-09-17,3,4,True,2
+PO-1545,2026-09-14,PHX-02,SUP-09,Southwest Janitorial Co,SKU-MRO-06,Air filters,MRO,195,14.83,2026-09-20,2026-09-19,5,6,True,2
+PO-1546,2026-09-15,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-08,Desk organizers,Office,385,102.63,2026-09-18,2026-09-18,3,3,True,4
+PO-1547,2026-09-15,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-SAF-02,Safety glasses,Safety,267,90.36,2026-09-20,2026-09-27,12,5,False,0
+PO-1548,2026-09-15,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-08,Desk organizers,Office,182,109.43,2026-09-20,2026-09-20,5,5,True,1
+PO-1549,2026-09-15,TEM-01,SUP-09,Southwest Janitorial Co,SKU-PAC-05,Bubble wrap,Packaging,89,26.8,2026-09-21,2026-09-21,6,6,True,0
+PO-1550,2026-09-15,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-05,First-aid kits,Safety,185,82.12,2026-09-20,2026-09-20,5,5,True,0
+PO-1551,2026-09-16,PHX-01,SUP-01,Sonoran Packaging Co,SKU-MRO-06,Air filters,MRO,74,14.52,2026-09-19,2026-09-19,3,3,True,0
+PO-1552,2026-09-16,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-02,Safety glasses,Safety,335,85.47,2026-09-20,2026-09-19,3,4,True,2
+PO-1553,2026-09-16,PHX-02,SUP-04,Desert Office Products,SKU-MRO-07,Light switches,MRO,275,56.87,2026-09-19,2026-09-19,3,3,True,4
+PO-1554,2026-09-16,TEM-01,SUP-05,Arizona MRO Services,SKU-MRO-01,LED bulbs (pack),MRO,50,113.28,2026-09-21,2026-09-20,4,5,True,2
+PO-1555,2026-09-17,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-04,Folders,Office,86,125.11,2026-09-26,2026-09-25,8,9,True,1
+PO-1556,2026-09-17,PHX-01,SUP-07,Desert Freight Logistics,SKU-CLE-05,Mop heads,Cleaning,19,142.99,2026-09-28,2026-09-28,11,11,True,1
+PO-1557,2026-09-17,PHX-02,SUP-07,Desert Freight Logistics,SKU-OFF-02,Ink cartridges,Office,15,40.08,2026-09-29,2026-09-29,12,12,True,0
+PO-1558,2026-09-17,PHX-01,SUP-03,Copper State Safety Gear,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,71,144.05,2026-09-23,2026-09-22,5,6,True,1
+PO-1559,2026-09-18,TEM-01,SUP-09,Southwest Janitorial Co,SKU-PAC-06,Mailers (padded),Packaging,229,67.73,2026-09-24,2026-09-24,6,6,True,2
+PO-1560,2026-09-18,TEM-01,SUP-04,Desert Office Products,SKU-PAC-06,Mailers (padded),Packaging,322,68.25,2026-09-22,2026-09-21,3,4,True,3
+PO-1561,2026-09-18,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-OFF-05,Sticky notes,Office,222,86.38,2026-09-26,2026-09-25,7,8,True,2
+PO-1562,2026-09-18,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-SAF-01,Nitrile gloves (box),Safety,315,63.74,2026-09-20,2026-09-20,2,2,True,2
+PO-1563,2026-09-18,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-PAC-02,Stretch wrap rolls,Packaging,320,154.18,2026-09-22,2026-09-21,3,4,True,3
+PO-1564,2026-09-19,PHX-02,SUP-04,Desert Office Products,SKU-OFF-06,Binders,Office,285,29.11,2026-09-21,2026-09-20,1,2,True,2
+PO-1565,2026-09-19,PHX-02,SUP-05,Arizona MRO Services,SKU-MRO-02,"Batteries (AA, pack)",MRO,182,104.73,2026-09-29,2026-09-28,9,10,True,2
+PO-1566,2026-09-19,PHX-01,SUP-05,Arizona MRO Services,SKU-PAC-04,Pallets (48x40),Packaging,193,134.21,2026-09-28,2026-09-28,9,9,True,5
+PO-1567,2026-09-19,PHX-02,SUP-04,Desert Office Products,SKU-CLE-04,Trash bags (55 gal),Cleaning,11,169.88,2026-09-21,2026-09-21,2,2,True,0
+PO-1568,2026-09-20,PHX-01,SUP-02,Valley Industrial Supply,SKU-MRO-01,LED bulbs (pack),MRO,236,114.0,2026-09-27,2026-09-26,6,7,True,4
+PO-1569,2026-09-20,PHX-02,SUP-09,Southwest Janitorial Co,SKU-SAF-01,Nitrile gloves (box),Safety,289,62.49,2026-09-25,2026-09-24,4,5,True,7
+PO-1570,2026-09-20,TEM-01,SUP-05,Arizona MRO Services,SKU-SAF-08,Spill kits,Safety,43,70.58,2026-09-30,2026-09-29,9,10,True,0
+PO-1571,2026-09-21,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-OFF-05,Sticky notes,Office,337,84.52,2026-09-24,2026-09-23,2,3,True,2
+PO-1572,2026-09-21,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-PAC-08,Strapping bands,Packaging,65,81.0,2026-09-29,2026-09-29,8,8,True,0
+PO-1573,2026-09-21,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-PAC-04,Pallets (48x40),Packaging,188,141.93,2026-09-30,2026-09-29,8,9,True,2
+PO-1574,2026-09-21,PHX-01,SUP-09,Southwest Janitorial Co,SKU-MRO-03,Duct tape,MRO,160,9.49,2026-09-27,2026-09-27,6,6,True,2
+PO-1575,2026-09-22,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-SAF-02,Safety glasses,Safety,94,90.36,2026-09-26,2026-09-26,4,4,True,0
+PO-1576,2026-09-22,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-CLE-02,Disinfectant spray,Cleaning,301,143.45,2026-09-26,2026-09-25,3,4,True,2
+PO-1577,2026-09-22,TEM-01,SUP-03,Copper State Safety Gear,SKU-SAF-05,First-aid kits,Safety,24,87.59,2026-09-30,2026-09-30,8,8,True,0
+PO-1578,2026-09-22,PHX-01,SUP-04,Desert Office Products,SKU-OFF-08,Desk organizers,Office,150,102.4,2026-09-27,2026-09-27,5,5,True,2
+PO-1579,2026-09-23,PHX-01,SUP-09,Southwest Janitorial Co,SKU-CLE-05,Mop heads,Cleaning,299,135.86,2026-09-29,2026-09-29,6,6,True,3
+PO-1580,2026-09-23,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-06,Air filters,MRO,288,14.97,2026-10-12,2026-10-12,19,19,True,17
+PO-1581,2026-09-23,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-PAC-03,Shipping tape,Packaging,142,19.83,2026-09-27,2026-09-27,4,4,True,0
+PO-1582,2026-09-24,PHX-02,SUP-01,Sonoran Packaging Co,SKU-SAF-01,Nitrile gloves (box),Safety,268,61.9,2026-09-28,2026-09-28,4,4,True,3
+PO-1583,2026-09-24,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-SAF-05,First-aid kits,Safety,86,78.56,2026-09-28,2026-09-27,3,4,True,0
+PO-1584,2026-09-24,PHX-02,SUP-01,Sonoran Packaging Co,SKU-MRO-07,Light switches,MRO,155,51.76,2026-09-28,2026-09-28,4,4,True,0
+PO-1585,2026-09-24,PHX-02,SUP-03,Copper State Safety Gear,SKU-PAC-03,Shipping tape,Packaging,95,20.78,2026-09-28,2026-10-04,10,4,False,2
+PO-1586,2026-09-25,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-PAC-04,Pallets (48x40),Packaging,136,131.36,2026-09-28,2026-09-27,2,3,True,0
+PO-1587,2026-09-25,PHX-01,SUP-01,Sonoran Packaging Co,SKU-PAC-06,Mailers (padded),Packaging,261,68.27,2026-09-29,2026-09-28,3,4,True,0
+PO-1588,2026-09-25,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-PAC-08,Strapping bands,Packaging,203,83.01,2026-10-03,2026-10-03,8,8,True,1
+PO-1589,2026-09-25,TEM-01,SUP-07,Desert Freight Logistics,SKU-PAC-08,Strapping bands,Packaging,224,84.23,2026-10-02,2026-10-02,7,7,True,7
+PO-1590,2026-09-25,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-PAC-04,Pallets (48x40),Packaging,291,139.41,2026-09-28,2026-09-28,3,3,True,4
+PO-1591,2026-09-26,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-06,Air filters,MRO,264,14.89,2026-10-02,2026-10-01,5,6,True,1
+PO-1592,2026-09-26,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-OFF-07,Envelopes,Office,92,121.46,2026-09-29,2026-09-28,2,3,True,1
+PO-1593,2026-09-26,TEM-01,SUP-01,Sonoran Packaging Co,SKU-MRO-01,LED bulbs (pack),MRO,182,115.48,2026-10-01,2026-09-30,4,5,True,0
+PO-1594,2026-09-27,PHX-02,SUP-07,Desert Freight Logistics,SKU-CLE-02,Disinfectant spray,Cleaning,113,146.84,2026-10-13,2026-10-19,22,16,False,5
+PO-1595,2026-09-27,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-SAF-04,Ear plugs (box),Safety,265,43.62,2026-10-02,2026-10-01,4,5,True,4
+PO-1596,2026-09-27,PHX-02,SUP-05,Arizona MRO Services,SKU-MRO-01,LED bulbs (pack),MRO,387,116.47,2026-10-03,2026-10-03,6,6,True,2
+PO-1597,2026-09-27,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-03,Pens (box),Office,297,141.41,2026-10-05,2026-10-04,7,8,True,2
+PO-1598,2026-09-27,TEM-01,SUP-07,Desert Freight Logistics,SKU-SAF-01,Nitrile gloves (box),Safety,78,59.87,2026-10-10,2026-10-10,13,13,True,3
+PO-1599,2026-09-28,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-SAF-03,Hi-vis vests,Safety,154,26.04,2026-10-02,2026-10-02,4,4,True,1
+PO-1600,2026-09-28,PHX-02,SUP-04,Desert Office Products,SKU-CLE-04,Trash bags (55 gal),Cleaning,18,173.55,2026-10-03,2026-10-02,4,5,True,0
+PO-1601,2026-09-28,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-MRO-02,"Batteries (AA, pack)",MRO,82,106.81,2026-10-08,2026-10-08,10,10,True,1
+PO-1602,2026-09-28,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-05,First-aid kits,Safety,181,81.82,2026-10-08,2026-10-08,10,10,True,1
+PO-1603,2026-09-29,TEM-01,SUP-01,Sonoran Packaging Co,SKU-MRO-07,Light switches,MRO,29,57.29,2026-10-04,2026-10-03,4,5,True,0
+PO-1604,2026-09-29,PHX-02,SUP-09,Southwest Janitorial Co,SKU-OFF-07,Envelopes,Office,205,118.4,2026-10-05,2026-10-04,5,6,True,4
+PO-1605,2026-09-29,PHX-02,SUP-06,Grand Canyon Chemicals,SKU-SAF-05,First-aid kits,Safety,283,77.97,2026-10-09,2026-10-08,9,10,True,2
+PO-1606,2026-09-29,PHX-01,SUP-07,Desert Freight Logistics,SKU-PAC-07,Labels (4x6),Packaging,212,117.26,2026-10-14,2026-10-21,22,15,False,10
+PO-1607,2026-09-29,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-PAC-03,Shipping tape,Packaging,65,19.69,2026-10-03,2026-10-02,3,4,True,0
+PO-1608,2026-09-30,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-PAC-07,Labels (4x6),Packaging,257,120.45,2026-10-04,2026-10-04,4,4,True,1
+PO-1609,2026-09-30,PHX-01,SUP-05,Arizona MRO Services,SKU-CLE-03,Paper towels (case),Cleaning,22,135.82,2026-10-07,2026-10-07,7,7,True,0
+PO-1610,2026-09-30,PHX-02,SUP-05,Arizona MRO Services,SKU-CLE-06,Degreaser,Cleaning,193,88.89,2026-10-09,2026-10-09,9,9,True,4
+PO-1611,2026-09-30,PHX-01,SUP-07,Desert Freight Logistics,SKU-SAF-03,Hi-vis vests,Safety,90,26.79,2026-10-13,2026-10-12,12,13,True,3
+PO-1612,2026-09-30,PHX-01,SUP-09,Southwest Janitorial Co,SKU-PAC-02,Stretch wrap rolls,Packaging,288,149.45,2026-10-06,2026-10-06,6,6,True,3
+PO-1613,2026-10-01,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-CLE-05,Mop heads,Cleaning,108,144.64,2026-10-06,2026-10-06,5,5,True,1
+PO-1614,2026-10-01,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-03,Pens (box),Office,360,140.61,2026-10-06,2026-10-05,4,5,True,2
+PO-1615,2026-10-01,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-07,Light switches,MRO,264,56.59,2026-10-13,2026-10-13,12,12,True,11
+PO-1616,2026-10-02,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-MRO-08,Extension cords,MRO,246,102.56,2026-10-07,2026-10-06,4,5,True,0
+PO-1617,2026-10-02,TEM-01,SUP-07,Desert Freight Logistics,SKU-PAC-08,Strapping bands,Packaging,49,85.65,2026-10-12,2026-10-22,20,10,False,2
+PO-1618,2026-10-02,TEM-01,SUP-02,Valley Industrial Supply,SKU-MRO-05,Lubricant spray,MRO,99,150.46,2026-10-10,2026-10-10,8,8,True,0
+PO-1619,2026-10-02,PHX-01,SUP-03,Copper State Safety Gear,SKU-CLE-07,Hand soap (1 gal),Cleaning,185,31.83,2026-10-09,2026-10-09,7,7,True,1
+PO-1620,2026-10-03,PHX-01,SUP-02,Valley Industrial Supply,SKU-MRO-08,Extension cords,MRO,276,101.39,2026-10-11,2026-10-10,7,8,True,1
+PO-1621,2026-10-03,TEM-01,SUP-04,Desert Office Products,SKU-SAF-07,Safety cones,Safety,288,145.73,2026-10-06,2026-10-05,2,3,True,2
+PO-1622,2026-10-03,PHX-02,SUP-07,Desert Freight Logistics,SKU-PAC-02,Stretch wrap rolls,Packaging,295,171.18,2026-10-16,2026-10-15,12,13,True,11
+PO-1623,2026-10-04,PHX-02,SUP-07,Desert Freight Logistics,SKU-OFF-03,Pens (box),Office,315,142.0,2026-10-22,2026-10-22,18,18,True,15
+PO-1624,2026-10-04,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-03,Hi-vis vests,Safety,131,26.32,2026-10-16,2026-10-16,12,12,True,1
+PO-1625,2026-10-04,PHX-02,SUP-02,Valley Industrial Supply,SKU-PAC-08,Strapping bands,Packaging,216,78.77,2026-10-13,2026-10-12,8,9,True,1
+PO-1626,2026-10-05,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-CLE-04,Trash bags (55 gal),Cleaning,384,174.35,2026-10-09,2026-10-08,3,4,True,3
+PO-1627,2026-10-05,PHX-02,SUP-09,Southwest Janitorial Co,SKU-CLE-05,Mop heads,Cleaning,204,137.27,2026-10-12,2026-10-11,6,7,True,8
+PO-1628,2026-10-05,TEM-01,SUP-02,Valley Industrial Supply,SKU-MRO-01,LED bulbs (pack),MRO,346,112.98,2026-10-11,2026-10-10,5,6,True,5
+PO-1629,2026-10-06,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-05,Sticky notes,Office,12,85.79,2026-10-12,2026-10-11,5,6,True,0
+PO-1630,2026-10-06,TEM-01,SUP-02,Valley Industrial Supply,SKU-MRO-05,Lubricant spray,MRO,398,156.87,2026-10-16,2026-10-16,10,10,True,1
+PO-1631,2026-10-06,TEM-01,SUP-02,Valley Industrial Supply,SKU-PAC-03,Shipping tape,Packaging,240,20.78,2026-10-12,2026-10-12,6,6,True,2
+PO-1632,2026-10-06,TEM-01,SUP-05,Arizona MRO Services,SKU-CLE-04,Trash bags (55 gal),Cleaning,329,173.49,2026-10-15,2026-10-21,15,9,False,3
+PO-1633,2026-10-07,PHX-02,SUP-02,Valley Industrial Supply,SKU-CLE-08,Broom & dustpan sets,Cleaning,80,137.32,2026-10-13,2026-10-13,6,6,True,0
+PO-1634,2026-10-07,TEM-01,SUP-03,Copper State Safety Gear,SKU-CLE-03,Paper towels (case),Cleaning,329,144.51,2026-10-13,2026-10-13,6,6,True,3
+PO-1635,2026-10-07,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-OFF-07,Envelopes,Office,239,119.12,2026-10-11,2026-10-10,3,4,True,0
+PO-1636,2026-10-08,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-05,Mop heads,Cleaning,16,143.98,2026-10-16,2026-10-25,17,8,False,0
+PO-1637,2026-10-08,TEM-01,SUP-04,Desert Office Products,SKU-PAC-03,Shipping tape,Packaging,194,20.53,2026-10-13,2026-10-13,5,5,True,0
+PO-1638,2026-10-08,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-08,Spill kits,Safety,359,72.68,2026-10-12,2026-10-12,4,4,True,4
+PO-1639,2026-10-08,TEM-01,SUP-05,Arizona MRO Services,SKU-MRO-04,Cable ties (pack),MRO,212,41.23,2026-10-17,2026-10-16,8,9,True,3
+PO-1640,2026-10-08,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-04,Ear plugs (box),Safety,103,45.41,2026-10-12,2026-10-11,3,4,True,0
+PO-1641,2026-10-09,PHX-02,SUP-03,Copper State Safety Gear,SKU-OFF-07,Envelopes,Office,372,124.81,2026-10-16,2026-10-15,6,7,True,1
+PO-1642,2026-10-09,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-SAF-08,Spill kits,Safety,67,69.45,2026-10-13,2026-10-12,3,4,True,0
+PO-1643,2026-10-09,PHX-02,SUP-02,Valley Industrial Supply,SKU-MRO-06,Air filters,MRO,92,14.59,2026-10-19,2026-10-19,10,10,True,2
+PO-1644,2026-10-09,TEM-01,SUP-10,Mesa Fasteners & Tools,SKU-SAF-05,First-aid kits,Safety,134,79.81,2026-10-12,2026-10-12,3,3,True,2
+PO-1645,2026-10-09,PHX-01,SUP-09,Southwest Janitorial Co,SKU-SAF-05,First-aid kits,Safety,331,81.94,2026-10-14,2026-10-13,4,5,True,5
+PO-1646,2026-10-10,PHX-02,SUP-07,Desert Freight Logistics,SKU-PAC-02,Stretch wrap rolls,Packaging,223,153.89,2026-10-28,2026-11-03,24,18,False,6
+PO-1647,2026-10-10,TEM-01,SUP-07,Desert Freight Logistics,SKU-OFF-08,Desk organizers,Office,301,101.63,2026-10-21,2026-10-20,10,11,True,13
+PO-1648,2026-10-10,PHX-02,SUP-05,Arizona MRO Services,SKU-SAF-04,Ear plugs (box),Safety,154,40.81,2026-10-19,2026-10-18,8,9,True,0
+PO-1649,2026-10-11,PHX-01,SUP-02,Valley Industrial Supply,SKU-OFF-02,Ink cartridges,Office,377,39.12,2026-10-19,2026-10-18,7,8,True,0
+PO-1650,2026-10-11,PHX-02,SUP-03,Copper State Safety Gear,SKU-CLE-05,Mop heads,Cleaning,80,134.67,2026-10-16,2026-10-16,5,5,True,0
+PO-1651,2026-10-11,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-SAF-07,Safety cones,Safety,65,153.05,2026-10-19,2026-10-19,8,8,True,2
+PO-1652,2026-10-12,PHX-02,SUP-04,Desert Office Products,SKU-OFF-06,Binders,Office,12,27.87,2026-10-18,2026-10-17,5,6,True,0
+PO-1653,2026-10-12,PHX-01,SUP-05,Arizona MRO Services,SKU-PAC-02,Stretch wrap rolls,Packaging,132,154.73,2026-10-20,2026-10-27,15,8,False,1
+PO-1654,2026-10-12,PHX-02,SUP-02,Valley Industrial Supply,SKU-SAF-04,Ear plugs (box),Safety,121,44.48,2026-10-20,2026-10-19,7,8,True,3
+PO-1655,2026-10-13,PHX-02,SUP-07,Desert Freight Logistics,SKU-CLE-06,Degreaser,Cleaning,101,84.2,2026-10-25,2026-10-25,12,12,True,1
+PO-1656,2026-10-13,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-SAF-01,Nitrile gloves (box),Safety,171,60.67,2026-10-18,2026-10-26,13,5,False,0
+PO-1657,2026-10-13,PHX-02,SUP-02,Valley Industrial Supply,SKU-CLE-07,Hand soap (1 gal),Cleaning,399,31.02,2026-10-21,2026-10-20,7,8,True,2
+PO-1658,2026-10-13,TEM-01,SUP-01,Sonoran Packaging Co,SKU-PAC-02,Stretch wrap rolls,Packaging,203,144.86,2026-10-17,2026-10-16,3,4,True,2
+PO-1659,2026-10-13,PHX-02,SUP-03,Copper State Safety Gear,SKU-SAF-02,Safety glasses,Safety,354,87.45,2026-10-18,2026-10-17,4,5,True,4
+PO-1660,2026-10-14,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-PAC-08,Strapping bands,Packaging,308,78.03,2026-10-19,2026-10-19,5,5,True,3
+PO-1661,2026-10-14,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-PAC-05,Bubble wrap,Packaging,115,26.75,2026-10-20,2026-10-20,6,6,True,1
+PO-1662,2026-10-14,PHX-01,SUP-05,Arizona MRO Services,SKU-SAF-02,Safety glasses,Safety,272,85.43,2026-10-20,2026-10-20,6,6,True,1
+PO-1663,2026-10-15,PHX-01,SUP-05,Arizona MRO Services,SKU-MRO-03,Duct tape,MRO,160,9.4,2026-10-26,2026-10-25,10,11,True,2
+PO-1664,2026-10-15,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-PAC-05,Bubble wrap,Packaging,54,25.86,2026-10-19,2026-10-18,3,4,True,1
+PO-1665,2026-10-15,PHX-01,SUP-03,Copper State Safety Gear,SKU-OFF-06,Binders,Office,221,29.26,2026-10-21,2026-10-21,6,6,True,2
+PO-1666,2026-10-15,TEM-01,SUP-01,Sonoran Packaging Co,SKU-OFF-05,Sticky notes,Office,275,84.29,2026-10-19,2026-10-18,3,4,True,0
+PO-1667,2026-10-15,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-MRO-03,Duct tape,MRO,205,9.47,2026-10-18,2026-10-17,2,3,True,2
+PO-1668,2026-10-16,PHX-01,SUP-04,Desert Office Products,SKU-MRO-05,Lubricant spray,MRO,83,155.74,2026-10-21,2026-10-21,5,5,True,0
+PO-1669,2026-10-16,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-MRO-08,Extension cords,MRO,108,102.1,2026-10-20,2026-10-20,4,4,True,1
+PO-1670,2026-10-16,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-03,Hi-vis vests,Safety,144,27.2,2026-10-20,2026-10-20,4,4,True,1
+PO-1671,2026-10-17,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-02,Ink cartridges,Office,399,39.63,2026-10-22,2026-10-22,5,5,True,1
+PO-1672,2026-10-17,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-07,Envelopes,Office,24,120.49,2026-10-20,2026-10-19,2,3,True,1
+PO-1673,2026-10-17,PHX-02,SUP-04,Desert Office Products,SKU-OFF-05,Sticky notes,Office,180,87.03,2026-10-21,2026-10-20,3,4,True,0
+PO-1674,2026-10-17,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-PAC-04,Pallets (48x40),Packaging,274,138.85,2026-10-27,2026-10-26,9,10,True,3
+PO-1675,2026-10-18,PHX-02,SUP-01,Sonoran Packaging Co,SKU-SAF-05,First-aid kits,Safety,365,78.39,2026-10-23,2026-10-22,4,5,True,1
+PO-1676,2026-10-18,PHX-01,SUP-03,Copper State Safety Gear,SKU-PAC-02,Stretch wrap rolls,Packaging,167,150.6,2026-10-26,2026-10-26,8,8,True,0
+PO-1677,2026-10-18,PHX-02,SUP-01,Sonoran Packaging Co,SKU-CLE-08,Broom & dustpan sets,Cleaning,253,129.05,2026-10-23,2026-10-28,10,5,False,1
+PO-1678,2026-10-18,TEM-01,SUP-07,Desert Freight Logistics,SKU-MRO-06,Air filters,MRO,358,14.58,2026-11-03,2026-11-07,20,16,False,19
+PO-1679,2026-10-18,TEM-01,SUP-01,Sonoran Packaging Co,SKU-OFF-04,Folders,Office,192,125.23,2026-10-24,2026-10-23,5,6,True,1
+PO-1680,2026-10-19,PHX-01,SUP-07,Desert Freight Logistics,SKU-SAF-05,First-aid kits,Safety,93,78.38,2026-11-04,2026-11-03,15,16,True,2
+PO-1681,2026-10-19,PHX-01,SUP-09,Southwest Janitorial Co,SKU-SAF-04,Ear plugs (box),Safety,79,43.63,2026-10-25,2026-10-25,6,6,True,0
+PO-1682,2026-10-19,TEM-01,SUP-08,Phoenix Pallet & Crate,SKU-OFF-02,Ink cartridges,Office,30,37.42,2026-10-26,2026-10-26,7,7,True,0
+PO-1683,2026-10-20,PHX-01,SUP-02,Valley Industrial Supply,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,194,144.67,2026-10-26,2026-10-25,5,6,True,3
+PO-1684,2026-10-20,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-OFF-07,Envelopes,Office,341,111.81,2026-10-23,2026-10-23,3,3,True,1
+PO-1685,2026-10-20,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-MRO-03,Duct tape,MRO,354,9.52,2026-10-24,2026-10-24,4,4,True,2
+PO-1686,2026-10-21,PHX-01,SUP-05,Arizona MRO Services,SKU-SAF-03,Hi-vis vests,Safety,42,27.39,2026-10-30,2026-10-29,8,9,True,0
+PO-1687,2026-10-21,PHX-01,SUP-09,Southwest Janitorial Co,SKU-SAF-02,Safety glasses,Safety,397,78.65,2026-10-27,2026-10-27,6,6,True,2
+PO-1688,2026-10-21,TEM-01,SUP-05,Arizona MRO Services,SKU-PAC-06,Mailers (padded),Packaging,40,66.47,2026-10-30,2026-10-30,9,9,True,3
+PO-1689,2026-10-22,PHX-01,SUP-01,Sonoran Packaging Co,SKU-CLE-04,Trash bags (55 gal),Cleaning,186,172.34,2026-10-28,2026-10-28,6,6,True,0
+PO-1690,2026-10-22,TEM-01,SUP-05,Arizona MRO Services,SKU-OFF-08,Desk organizers,Office,177,102.56,2026-11-01,2026-11-01,10,10,True,2
+PO-1691,2026-10-22,PHX-02,SUP-09,Southwest Janitorial Co,SKU-OFF-08,Desk organizers,Office,391,106.11,2026-10-31,2026-10-30,8,9,True,2
+PO-1692,2026-10-22,PHX-01,SUP-04,Desert Office Products,SKU-MRO-01,LED bulbs (pack),MRO,205,118.34,2026-10-26,2026-10-26,4,4,True,3
+PO-1693,2026-10-22,PHX-02,SUP-03,Copper State Safety Gear,SKU-OFF-01,Printer paper (ream),Office,361,124.28,2026-10-28,2026-10-27,5,6,True,2
+PO-1694,2026-10-23,PHX-02,SUP-04,Desert Office Products,SKU-PAC-06,Mailers (padded),Packaging,184,66.89,2026-10-27,2026-10-26,3,4,True,0
+PO-1695,2026-10-23,TEM-01,SUP-07,Desert Freight Logistics,SKU-OFF-05,Sticky notes,Office,107,83.37,2026-11-13,2026-11-13,21,21,True,3
+PO-1696,2026-10-23,PHX-02,SUP-02,Valley Industrial Supply,SKU-CLE-06,Degreaser,Cleaning,102,86.03,2026-10-28,2026-10-27,4,5,True,0
+PO-1697,2026-10-23,PHX-02,SUP-07,Desert Freight Logistics,SKU-CLE-04,Trash bags (55 gal),Cleaning,239,178.97,2026-11-12,2026-11-16,24,20,False,8
+PO-1698,2026-10-24,PHX-02,SUP-01,Sonoran Packaging Co,SKU-SAF-06,Hard hats,Safety,237,128.45,2026-10-27,2026-10-26,2,3,True,0
+PO-1699,2026-10-24,PHX-01,SUP-01,Sonoran Packaging Co,SKU-CLE-07,Hand soap (1 gal),Cleaning,198,30.58,2026-10-28,2026-10-28,4,4,True,3
+PO-1700,2026-10-24,TEM-01,SUP-05,Arizona MRO Services,SKU-MRO-05,Lubricant spray,MRO,135,150.66,2026-11-01,2026-11-08,15,8,False,1
+PO-1701,2026-10-25,PHX-02,SUP-03,Copper State Safety Gear,SKU-SAF-06,Hard hats,Safety,43,127.81,2026-11-01,2026-10-31,6,7,True,0
+PO-1702,2026-10-25,PHX-01,SUP-07,Desert Freight Logistics,SKU-PAC-01,Cardboard boxes (24x18x12),Packaging,184,138.71,2026-11-06,2026-11-06,12,12,True,4
+PO-1703,2026-10-25,PHX-02,SUP-05,Arizona MRO Services,SKU-OFF-07,Envelopes,Office,225,124.54,2026-11-07,2026-11-12,18,13,False,3
+PO-1704,2026-10-25,PHX-01,SUP-10,Mesa Fasteners & Tools,SKU-MRO-03,Duct tape,MRO,134,9.5,2026-10-27,2026-10-27,2,2,True,0
+PO-1705,2026-10-25,TEM-01,SUP-05,Arizona MRO Services,SKU-MRO-06,Air filters,MRO,205,14.95,2026-11-04,2026-11-04,10,10,True,2
+PO-1706,2026-10-26,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-SAF-07,Safety cones,Safety,71,143.71,2026-10-30,2026-10-30,4,4,True,1
+PO-1707,2026-10-26,TEM-01,SUP-01,Sonoran Packaging Co,SKU-SAF-01,Nitrile gloves (box),Safety,241,61.13,2026-11-01,2026-11-01,6,6,True,1
+PO-1708,2026-10-26,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-08,Broom & dustpan sets,Cleaning,267,138.29,2026-11-04,2026-11-04,9,9,True,2
+PO-1709,2026-10-26,PHX-02,SUP-10,Mesa Fasteners & Tools,SKU-SAF-07,Safety cones,Safety,288,148.91,2026-10-30,2026-10-30,4,4,True,2
+PO-1710,2026-10-27,TEM-01,SUP-09,Southwest Janitorial Co,SKU-PAC-08,Strapping bands,Packaging,171,80.6,2026-11-03,2026-11-03,7,7,True,1
+PO-1711,2026-10-27,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-01,Printer paper (ream),Office,78,113.9,2026-11-04,2026-11-04,8,8,True,0
+PO-1712,2026-10-27,PHX-01,SUP-09,Southwest Janitorial Co,SKU-PAC-07,Labels (4x6),Packaging,352,113.6,2026-11-01,2026-10-31,4,5,True,3
+PO-1713,2026-10-27,PHX-01,SUP-05,Arizona MRO Services,SKU-SAF-08,Spill kits,Safety,56,67.35,2026-11-04,2026-11-03,7,8,True,0
+PO-1714,2026-10-27,PHX-01,SUP-01,Sonoran Packaging Co,SKU-MRO-01,LED bulbs (pack),MRO,58,114.77,2026-10-31,2026-10-30,3,4,True,0
+PO-1715,2026-10-28,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-04,Trash bags (55 gal),Cleaning,207,168.39,2026-11-06,2026-11-05,8,9,True,2
+PO-1716,2026-10-28,PHX-01,SUP-08,Phoenix Pallet & Crate,SKU-SAF-08,Spill kits,Safety,165,69.1,2026-11-03,2026-11-03,6,6,True,0
+PO-1717,2026-10-28,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-OFF-04,Folders,Office,237,128.8,2026-11-06,2026-11-05,8,9,True,3
+PO-1718,2026-10-28,PHX-02,SUP-03,Copper State Safety Gear,SKU-MRO-04,Cable ties (pack),MRO,243,40.53,2026-11-05,2026-11-05,8,8,True,1
+PO-1719,2026-10-29,PHX-01,SUP-09,Southwest Janitorial Co,SKU-MRO-02,"Batteries (AA, pack)",MRO,52,101.37,2026-11-04,2026-11-12,14,6,False,0
+PO-1720,2026-10-29,PHX-02,SUP-05,Arizona MRO Services,SKU-SAF-02,Safety glasses,Safety,114,86.72,2026-11-07,2026-11-07,9,9,True,1
+PO-1721,2026-10-29,TEM-01,SUP-03,Copper State Safety Gear,SKU-OFF-05,Sticky notes,Office,287,80.81,2026-11-03,2026-11-03,5,5,True,3
+PO-1722,2026-10-30,TEM-01,SUP-06,Grand Canyon Chemicals,SKU-CLE-06,Degreaser,Cleaning,209,88.03,2026-11-09,2026-11-09,10,10,True,0
+PO-1723,2026-10-30,TEM-01,SUP-01,Sonoran Packaging Co,SKU-CLE-08,Broom & dustpan sets,Cleaning,377,133.27,2026-11-03,2026-11-03,4,4,True,2
+PO-1724,2026-10-30,PHX-02,SUP-08,Phoenix Pallet & Crate,SKU-PAC-05,Bubble wrap,Packaging,396,27.33,2026-11-04,2026-11-04,5,5,True,4
+PO-1725,2026-10-30,TEM-01,SUP-02,Valley Industrial Supply,SKU-CLE-06,Degreaser,Cleaning,94,86.31,2026-11-09,2026-11-09,10,10,True,1
+PO-1726,2026-10-30,TEM-01,SUP-03,Copper State Safety Gear,SKU-OFF-03,Pens (box),Office,115,150.54,2026-11-05,2026-11-05,6,6,True,0
+PO-1727,2026-10-31,PHX-01,SUP-07,Desert Freight Logistics,SKU-SAF-06,Hard hats,Safety,165,125.01,2026-11-10,2026-11-09,9,10,True,13
+PO-1728,2026-10-31,PHX-01,SUP-06,Grand Canyon Chemicals,SKU-MRO-01,LED bulbs (pack),MRO,242,111.14,2026-11-08,2026-11-07,7,8,True,1
+PO-1729,2026-10-31,PHX-01,SUP-07,Desert Freight Logistics,SKU-OFF-01,Printer paper (ream),Office,352,116.62,2026-11-08,2026-11-07,7,8,True,18
+PO-1730,2026-10-31,TEM-01,SUP-01,Sonoran Packaging Co,SKU-CLE-07,Hand soap (1 gal),Cleaning,288,30.09,2026-11-05,2026-11-05,5,5,True,0
+PO-1731,2026-10-31,PHX-01,SUP-05,Arizona MRO Services,SKU-CLE-06,Degreaser,Cleaning,14,86.2,2026-11-10,2026-11-10,10,10,True,0
