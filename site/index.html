@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Supply Chain KPI Dashboard — Simulated Procurement Data</title>
+<style>
+  :root { --bg:#0b1220; --panel:#111c33; --panel2:#16233f; --line:#243355; --text:#e8ecf5; --muted:#9aa7c2; --accent:#38bdf8; --green:#34d399; --amber:#fbbf24; --red:#f87171; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .banner { background:var(--amber); color:#231a02; text-align:center; font-weight:700; padding:10px 16px; font-size:15px; letter-spacing:.02em; }
+  .banner span { font-weight:400; }
+  .wrap { max-width:1020px; margin:0 auto; padding:28px 20px 48px; }
+  h1 { font-size:28px; margin:6px 0 4px; letter-spacing:-.02em; }
+  .sub { color:var(--muted); margin:0 0 24px; }
+  .sub a { color:var(--accent); }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:24px; }
+  .kpi { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .kpi .big { font-size:28px; font-weight:800; letter-spacing:-.02em; }
+  .kpi .lbl { color:var(--muted); font-size:13px; margin-top:4px; }
+  .kpi .note { font-size:12px; color:var(--muted); margin-top:6px; }
+  .good { color:var(--green); } .bad { color:var(--red); } .warn { color:var(--amber); }
+  h2 { font-size:19px; margin:28px 0 10px; }
+  p { color:#c6cede; line-height:1.55; }
+  table { width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--line); border-radius:12px; overflow:hidden; font-size:14px; }
+  th, td { padding:10px 12px; text-align:left; border-bottom:1px solid var(--line); }
+  th { background:var(--panel2); color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.05em; }
+  tr:last-child td { border-bottom:none; }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  tr.worst td { background:rgba(248,113,113,.08); }
+  .callout { background:var(--panel); border:1px solid var(--line); border-left:4px solid var(--red); border-radius:8px; padding:14px 16px; margin:16px 0; }
+  .callout b { color:var(--red); }
+  footer { color:var(--muted); font-size:13px; margin-top:32px; border-top:1px solid var(--line); padding-top:16px; line-height:1.6; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="banner">⚠ SIMULATED DATA — <span>All figures on this page are simulated procurement data (May–Oct 2026), generated to stand in for real source-system data. Not real company data.</span></div>
+<div class="wrap">
+  <h1>Supply Chain KPI Dashboard</h1>
+  <p class="sub">Simulated procurement network: 10 suppliers, 3 sites (PHX-01, PHX-02, TEM-01), 40 SKUs · Period May–Oct 2026 · Inventory snapshot 31 Oct 2026</p>
+
+  <div class="kpis">
+    <div class="kpi"><div class="big">732</div><div class="lbl">Purchase orders</div></div>
+    <div class="kpi"><div class="big">$13,770,255</div><div class="lbl">Total spend</div></div>
+    <div class="kpi"><div class="big good">90.2%</div><div class="lbl">On-time delivery (network)</div></div>
+    <div class="kpi"><div class="big bad">69.1%</div><div class="lbl">Worst supplier OTD — Desert Freight Logistics</div><div class="note">81 POs · $1,546,014 spend</div></div>
+    <div class="kpi"><div class="big warn">9</div><div class="lbl">Stockout-risk SKUs</div><div class="note">7 at PHX-02, 2 at PHX-01</div></div>
+    <div class="kpi"><div class="big warn">$586,612</div><div class="lbl">Excess inventory</div><div class="note">Above reorder points</div></div>
+  </div>
+
+  <h2>Supplier scorecard</h2>
+  <p>Ranked by on-time delivery. Full figures: <code>kpi_summary.csv</code> in the repo.</p>
+  <table>
+    <thead><tr><th>Rank</th><th>Supplier</th><th class="num">POs</th><th class="num">Spend</th><th class="num">OTD %</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Phoenix Pallet &amp; Crate (SUP-08)</td><td class="num">80</td><td class="num">$1,351,059</td><td class="num good">97.5</td></tr>
+      <tr><td>2</td><td>Mesa Fasteners &amp; Tools (SUP-10)</td><td class="num">64</td><td class="num">$1,355,104</td><td class="num good">96.9</td></tr>
+      <tr><td>3</td><td>Sonoran Packaging Co (SUP-01)</td><td class="num">71</td><td class="num">$1,480,204</td><td class="num good">95.8</td></tr>
+      <tr><td>4</td><td>Valley Industrial Supply (SUP-02)</td><td class="num">72</td><td class="num">$1,332,198</td><td class="num good">95.8</td></tr>
+      <tr><td>5</td><td>Copper State Safety Gear (SUP-03)</td><td class="num">73</td><td class="num">$1,191,663</td><td class="num good">94.5</td></tr>
+      <tr><td>6</td><td>Grand Canyon Chemicals (SUP-06)</td><td class="num">67</td><td class="num">$1,229,881</td><td class="num good">94.0</td></tr>
+      <tr><td>7</td><td>Desert Office Products (SUP-04)</td><td class="num">64</td><td class="num">$1,226,690</td><td class="num">90.6</td></tr>
+      <tr><td>8</td><td>Southwest Janitorial Co (SUP-09)</td><td class="num">73</td><td class="num">$1,327,057</td><td class="num warn">86.3</td></tr>
+      <tr><td>9</td><td>Arizona MRO Services (SUP-05)</td><td class="num">87</td><td class="num">$1,730,386</td><td class="num warn">85.1</td></tr>
+      <tr class="worst"><td>10</td><td><strong>Desert Freight Logistics (SUP-07)</strong></td><td class="num">81</td><td class="num">$1,546,014</td><td class="num bad"><strong>69.1</strong></td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <b>Miss report — Desert Freight Logistics (SUP-07).</b>
+    On time on only 69.1% of its 81 POs — 21 points below the network average (90.2%)
+    and 16 points below the next-worst supplier (85.1%). 25 of 81 deliveries were late,
+    15 more than 5 days late. Average lateness +1.68 days, defect rate 4.00%, average
+    price increase +9.68% — the least reliable, lowest quality, and steepest on price
+    movement in the network. Full deep dive: <code>supplier_scorecard.md</code>.
+  </div>
+
+  <h2>On-time delivery by site</h2>
+  <table>
+    <thead><tr><th>Site</th><th class="num">POs</th><th class="num">Spend</th><th class="num">OTD %</th><th class="num">Stockout-risk SKUs</th><th class="num">Excess inventory</th></tr></thead>
+    <tbody>
+      <tr><td>PHX-01</td><td class="num">248</td><td class="num">$4,844,262</td><td class="num good">92.3</td><td class="num">2</td><td class="num">$183,727</td></tr>
+      <tr><td>PHX-02</td><td class="num">249</td><td class="num">$4,388,049</td><td class="num">89.6</td><td class="num warn">7</td><td class="num">$159,861</td></tr>
+      <tr><td>TEM-01</td><td class="num">235</td><td class="num">$4,537,944</td><td class="num">88.5</td><td class="num">0</td><td class="num">$243,023</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Stockout-risk SKUs — 31 Oct 2026 snapshot (9 SKUs)</h2>
+  <p>On hand below safety stock. Source: <code>stockout_risk_skus.csv</code>.</p>
+  <table>
+    <thead><tr><th>SKU</th><th>Description</th><th>Site</th><th class="num">On hand</th><th class="num">Safety stock</th><th class="num">Reorder point</th><th class="num">Unit price</th><th class="num">Avg daily usage</th></tr></thead>
+    <tbody>
+      <tr><td>SKU-MRO-02</td><td>Batteries (AA, pack)</td><td>PHX-02</td><td class="num">39</td><td class="num">100</td><td class="num">160</td><td class="num">$102.42</td><td class="num">20</td></tr>
+      <tr><td>SKU-MRO-01</td><td>LED bulbs (pack)</td><td>PHX-02</td><td class="num">48</td><td class="num">105</td><td class="num">150</td><td class="num">$115.71</td><td class="num">15</td></tr>
+      <tr><td>SKU-OFF-07</td><td>Envelopes</td><td>PHX-02</td><td class="num">96</td><td class="num">119</td><td class="num">170</td><td class="num">$121.64</td><td class="num">17</td></tr>
+      <tr><td>SKU-OFF-03</td><td>Pens (box)</td><td>PHX-02</td><td class="num">120</td><td class="num">152</td><td class="num">209</td><td class="num">$142.50</td><td class="num">19</td></tr>
+      <tr><td>SKU-CLE-06</td><td>Degreaser</td><td>PHX-01</td><td class="num">24</td><td class="num">39</td><td class="num">78</td><td class="num">$86.14</td><td class="num">13</td></tr>
+      <tr><td>SKU-PAC-06</td><td>Mailers (padded)</td><td>PHX-01</td><td class="num">30</td><td class="num">66</td><td class="num">84</td><td class="num">$69.26</td><td class="num">6</td></tr>
+      <tr><td>SKU-SAF-01</td><td>Nitrile gloves (box)</td><td>PHX-02</td><td class="num">22</td><td class="num">132</td><td class="num">198</td><td class="num">$61.35</td><td class="num">22</td></tr>
+      <tr><td>SKU-CLE-05</td><td>Mop heads</td><td>PHX-02</td><td class="num">36</td><td class="num">76</td><td class="num">133</td><td class="num">$141.00</td><td class="num">19</td></tr>
+      <tr><td>SKU-PAC-08</td><td>Strapping bands</td><td>PHX-02</td><td class="num">51</td><td class="num">60</td><td class="num">96</td><td class="num">$82.04</td><td class="num">12</td></tr>
+    </tbody>
+  </table>
+
+  <footer>
+    SIMULATED DATA — generated with a fixed random seed (seed 42) to stand in for procurement
+    data from source systems such as Coupa and Delphi. No real Amazon, supplier, or pricing data
+    is used. One supplier was deliberately made unreliable, so the “worst performer” is by design,
+    not discovery. All numbers on this page come from the repo’s own verified files:
+    <code>kpi_summary.csv</code>, <code>kpi_by_site.csv</code>,
+    <code>stockout_risk_skus.csv</code> and <code>supplier_scorecard.md</code> —
+    recompute with <code>python analysis.py</code>. Full project:
+    <a href="https://github.com/nehilbhakta/supply-chain-kpi">github.com/nehilbhakta/supply-chain-kpi</a>.
+  </footer>
+</div>
+</body>
+</html>
