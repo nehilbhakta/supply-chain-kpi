@@ -1,5 +1,7 @@
 # Supply Chain KPI Dashboard — Simulated Procurement Data
 
+**Live dashboard: https://nehilbhakta-supplychain.vercel.app**
+
 A complete supply chain analytics project: a reproducible simulated
 procurement dataset, KPI analysis in Python/pandas, a supplier scorecard with
 a root-cause miss report, and a build spec for a Tableau Public dashboard.
